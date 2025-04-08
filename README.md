@@ -2,11 +2,11 @@
 
 Through sciences and technologies, humanity has gained great mastery over nature but its social organization is still subordinated to individualistic short term interests. Deep systemic changes are needed for humanity to gain conscious control over its future and overcome self destructive socio-economical mechanisms.
 
-The future organization of society will have to go beyond national boundaries, welcome humanity's intrinsic diversity and defend a positivist view of liberty. For this to be possible in practice, both economical and political processes must be voluntarily, actively and deliberately built by the self-governing masses. Thereby arises the need for software infrastructure able to catalyze, enable and empower participatory democracies in the face of systemic opposition and violent repression. Artists, journalists and political activists need spaces of free expression, worker organizations need ways to organize
+The future organization of society will have to go beyond national boundaries, welcome humanity's intrinsic diversity and defend a positivist view of liberty. For this to be possible in practice, both economical and political processes must be voluntarily, actively and deliberately built by the self-governing masses. Thereby arises the need for tools enabling local and global collective organizing and decision making able to guarantee the universal right to expression, to information, to association, to privacy and to self-determination both during periods of calm and socio-political turmoil.
 
-Thereby arises the need for tools enabling local and global collective organizing and decision making able to support artists, journalists and political activists, to enable them to function both during normal and revolutionary periods and to serve as the software infrastructure for upcoming worker's led democracies.
+Dialogue aims to become this software infrastructure, able to catalyze, enable and empower participatory democracies in the face of systemic opposition and violent repression. It also ambition to serve as the software infrastructure for upcoming worker's led democracies.
 
-Building such a decentralized social network is a humongous task that can only be completed with the coordination of a large pool of engineers, programers, designers, journalists, artists and more. This document is a first attempt at clarifying its requirements in order to structure and orient everyone's work toward a clear and unified goal.
+Building such a decentralized social network is a humongous task that can only be completed with the coordination of a large pool of engineers, programers, designers, scientists, journalists, artists and more. This document is a first attempt at clarifying its requirements in order to structure and orient everyone's work toward a clear and unified goal.
 
 ## Contribute
 
