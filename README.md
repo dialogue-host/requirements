@@ -1,4 +1,67 @@
-# Dialogue
+# 🌸 Dialogue
+
+Humanity's strive for existence underlies its entire history. Our social and cultural capabilities to cooperate and support one another empower us to preserve and open up our horizon of possibles by transforming and adapting our society and environment. This collective endeavor progresses through ever renewing systemic contradictions where we surpass one to face an other. Certain material conditions are required for us to overcome each of them.
+
+Engineering problem of enabling everyone to live in peace together.
+
+
+This process is one of deep internal struggle.
+Each of these stumbling blocks require deep social and economic transformations to be overcome.
+the daily involvement of people in society and its productive processes.
+
+-- is productivism required here?
+
+systemic contradictions that
+
+Through this collective endeavor, we crafted many of the necessary building blocks required for positive liberty to unfold. We are progressively assembling through struggle and contradictions the capacity for people to self-determinate, developing more and more individual consciousness.
+
+But from this process of self elevation, the condition for concrete freedom and self-fulfillment is appearing through time to be a greater socialization carrying more collective consciousness. Blocks are still missing.
+
+The movement started with the concrete organization of society, passed by the individual and the growth of self-awareness and is fully developing through socialization and the growth of collective consciousness.
+
+Dialogue aims to be one of the building block supporting humanity's blossom.
+
+
+
+Humanity's strive for existence underlies and guides its entire history. Our social and cultural capabilities to collaborate and support one an other empowered us to preserve and open up our horizon of possibles.
+
+Through this collective endeavor, we crafted many of the necessary building blocks required for people to self-determinate.
+
+This building process is one of struggle, where every systemic contradiction has to be surpassed
+
+This capacity enables  self-contiousess.
+
+which brings a greater collective consciousness.
+
+enter an age where individual positive liberty can blossom.
+
+Each of these blocks grows the capacity of people to self-determinate. and brings a greater subjective consciousness.
+
+of the conditions for concrete freedom and self-fulfillment.
+
+Elevate consciousness
+As everyone seeks self fulfillment
+
+develop the requirement for individual positive liberty.
+
+
+
+
+Dialogue aims to become a software infrastructure, able to catalyze, enable and empower peoples.
+
+in the face of systemic oppression and violent repression. It also ambition to serve as the software infrastructure for upcoming worker's led democracies.
+
+  ability to learn, teach and collaborate.
+la culture se place en rupture de la sélection naturelle individuelle
+
+- synthesize collective experience
+- positivist view of liberty
+- welcome humanity's diversity
+- surpass contradictions
+- for individuals and the collective subjects they are part of
+-
+- unquestionable access to information, to privacy, to expression, to association, self-determination
+- mutual care outbalance hatred
 
 Through sciences and technologies, humanity has gained great mastery over nature but its social organization is still subordinated to individualistic short term interests. Deep systemic changes are needed for humanity to gain conscious control over its future and overcome self destructive socio-economical mechanisms.
 
@@ -85,6 +148,25 @@ Governance might be the most difficult challenge of all. We have to take it very
 | 11. | Be under the control of involved users but also defend the interests of peoples that aren't able to involve themselves in the same way. | *democratic* and *empathic* | *important* |
 | 12. | Changes to the core principles have to be difficult enough for the project not to stere off course and easy enough for them not to become obsolete. | *sustainable* | *crucial* |
 
+- roles
+  - initiators
+    - define the initial project's aims, epistemology and methodology through its requirements
+    - initiate the platform's dynamic culture
+  - governing organ
+    - admission process based on understanding and accordance with project aims, epistemology and methodology
+    - exclusion process
+    - rehabilitation process and transformative and restorative justice
+    - continuous internal transformation process
+    - decision process through contextualization report and synthesis committees
+    - elected and revocable coordination roles
+  - contributor agora
+    - input gathering process to push topics on the governing organ's agenda
+  - operational roles
+- communication tools
+  - dialogue on the long term for its own maintenance and evolution
+  - other forum software in the meantime
+  - in person before those are set up
+
 We start as a temporary benevolent dictatorship. Even though it is a very fragile and centralized mode of organization, it ensures alignment with the project's initial intent. Our perspective is to use the organizational tools of *dialogue* to progressively build up processes and transfer governance to its most dedicated contributors.
 
 | ref | impact | problem/solution |
@@ -99,7 +181,7 @@ Opportunism has to be strongly rejected to avoid the corporatisation happening i
 
 For now though, we are too early in the platform's development to clearly sketch out any clear *plan*. We can learn form [Open Collective](https://opencollective.com/) in terms of managing funds. Many political and journalistic organizations such as [Wikileaks](https://wikileaks.org/) also have a lot to teach us in terms of functioning in illegality.
 
-### Programming Language
+### Programming Language (Dialang)
 
 A programming language in and of itself is a user interface that serves as a model for thinking about and describing processes. It is one of the most basic building blocks of the platform and it has to be perfectly suited to its needs. We need fertile soil to grow a fruitful tree.
 
@@ -107,17 +189,17 @@ A programming language in and of itself is a user interface that serves as a mod
 | --: | ----------- | -------- | -------- |
 | 1. | Minimize the amount of primitives, concepts and programming techniques needed to master the language. | *accessible* | *crucial* |
 | 4. | Minimize the potential for making mistakes and creating bugs. | *sustainable*, *resilient* and *accessible* | *crucial* |
-| 5. | Make managed effects very explicit and controllable to minimize the potential for hiding malicious code and unintended behaviors. | *transparent*, *sustainable* and *resilient* | *crucial* |
-| 7. | Make metaprogramming simple to support tooling development, code property verification and good practice enforcement. | *sustainable*, *secure*, *attractive* and *accessible* | *important* |
+| 5. | Make side effects very explicit and controllable to minimize the potential for hiding malicious code and unintended behaviors. | *transparent*, *sustainable* and *resilient* | *crucial* |
+| 7. | Make metaprogramming simple to support tooling development, code property verification, good practice enforcement and enable compiler self-hosting. | *sustainable*, *secure*, *attractive* and *accessible* | *important* |
 | 8. | Enable partial and complete code hot swapping even in production. | *modularity* | *crucial* |
-| 9. | Minimize barriers to testing and benchmarking any piece of code. | *sustainable* and *accessible* | *important* |
-| 10. | Enable spoken language conversion. | *accessible* | *important* |
+| 9. | Encourage good development practices such as test driven development. | *sustainable* | *important* |
+| 10. | Enable spoken language code translation. | *accessible* | *important* |
 | 11. | Maximize compile time optimization and parallelization. | *accessible* | *important* |
-| 12. | Look familiar to seasoned developers. | *attractive* | *desirable* |
+| 12. | Look familiar to seasoned developers and be adaptable to different syntax preferences. | *attractive* and *modular* | *desirable* |
 | 13. | Make white-space syntactically insignificant for the language to be more resilient to copy-paste and LLM usage. | *accessible* | *desirable* |
 | 14. | Enable seem less peer to peer communication and data synchronization. | *resilient*, *independent* and *accessible* | *crucial* |
-| 15. | Incorporate systems for version control, distribution and deployment to ensure maintainability. | *sustainable* and *resilient* | *crucial* |
-| 16. | Encourage good development practices such as test driven development. | *sustainable* | *desirable* |
+| 15. | Integrate [evergreen migrations](https://www.youtube.com/watch?v=4T6nZffnfzg) as the essential method for transitioning versions. | *sustainable* | *desirable* |
+| 15. | Incorporate systems for version control, p2p distribution and deployment to ensure maintainability. | *sustainable* and *resilient* | *crucial* |
 
 --todo: separate concerns (req15 should be in package manager)
 
@@ -127,16 +209,27 @@ A programming language in and of itself is a user interface that serves as a mod
 | --: | ----------- | -------- | -------- |
 | 2. | Print explicit and helpful compiler errors to guide programmers through their refactors. | *sustainable* and *accessible* | *crucial* |
 | 3. | Minimize compilation time to shorten the development feedback loop. | *attractive*, *accessible* and *sustainable* | *crucial* |
-| 6. | Chose compilation targets to make the code portable to the largest pool of devices and browsers possible. | *accessible* and *sustainable* | *crucial* |
+| 6. | Compilation targets be modular to make the code portable to the largest pool of devices and browsers possible. | *accessible* and *sustainable* | *crucial* |
 | 7. | Handle translation tables to translate code from one spoken language to an other. | *accessible* | *important* |
 
 ### Versioning
 
 ### Peer to Peer
 
+### Package Manager
+
 ### IDE and GUI
 
-### Package Manager
+### Font
+
+| ref | requirement | fulfills | priority |
+| --: | ----------- | -------- | -------- |
+| 1. | Covers every character/symbol/glyph from every language and their writing directions (RTL, LTR, TTB). | *accessible* | *crucial* |
+| 2. | Focus on readability at every size. | *accessible* and *sustainable* | *crucial* |
+| 3. | Be monospace for use in programming. | required for [Dialang](#programming-language-dialang) | *crucial* |
+| 4. | Has a consistent style that matches [dialogue's visual identity](#visual-identity). | *attractive* | *desirable* |
+
+### Visual Identity
 
 ### Teaching Material
 
