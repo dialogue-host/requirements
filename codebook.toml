@@ -1,5 +1,12 @@
 dictionaries = []
-words = ["transformative"]
+words = [
+    "elric",
+    "idal",
+    "iroh",
+    "naruto",
+    "sasuke",
+    "transformative",
+]
 flag_words = []
 ignore_paths = []
 ignore_patterns = []

@@ -1,6 +1,14 @@
 # 🌸 Dialogue
 
-Humanity's strive for existence underlies its entire history. Our social and cultural capabilities to cooperate and support one another empower us to preserve and open up our horizon of possibles by transforming and adapting our society and environment. This collective endeavor progresses through ever renewing systemic contradictions where we surpass one to face an other. Certain material conditions are required for us to overcome each of them.
+- initial impulse (want to make the world a better place)
+- approach (think about the problem like)
+- philosophy / metaphysics
+- methodology
+- praxis (building dialogue)
+
+Humanity's strive for existence underlies its entire history. Our social and cultural capabilities to cooperate and support one another empower us to preserve and open up our horizon of possibles by transforming and adapting our society and environment. This collective endeavor progresses through ever renewing systemic contradictions where we surpass one to face an other. Each of these steps is accomplished by people challenging the status quo, questioning the way their society is organized and proposing alternatives capable of solving the limitations inherent to the existing system.
+
+Each of these steps is accomplished by the struggle of the dominated against the dominant
 
 Engineering problem of enabling everyone to live in peace together.
 
@@ -53,6 +61,8 @@ in the face of systemic oppression and violent repression. It also ambition to s
 
   ability to learn, teach and collaborate.
 la culture se place en rupture de la sélection naturelle individuelle
+
+Greed comes from deep insecurities and emotional voids that can create insatiable wants ; egoism comes from scarcity, when there won't be enough for everyone, but can also come from the fear that one's mistakes might undermine their worth ; and revenge comes from an unmet need for justice. Each of these are completely avoidable especially in a time of abundance such as ours.
 
 - synthesize collective experience
 - positivist view of liberty
