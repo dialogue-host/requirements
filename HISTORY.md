@@ -8,8 +8,6 @@ So as I was dreaming of building these fancy cars, deeply what I wanted was to m
 
 ## What is the world and what am I?
 
-
-
 I went to church pretty much every Sunday up to 14 year's old. My faith had ups and downs but overall I was a strong believer. I went through multiple deep transcendental experiences that convinced me I was part of something greater than myself. But there where two gigantic issues, the first one being : If God created the universe, who or what created him?
 
 The universe is made up of things which interact with one an other in various ways.
@@ -36,10 +34,11 @@ After doing that exercise, whenever I sat in church, I could not stop asking mys
 
 No what is good and evil cannot be decided by anyone else. We have to decide it for ourselves in full awareness.
 
--- moral subjectivism
+-- étique
 
 ## How can we make the world a better place?
 
 -- dialectics
 
-## The need for justice.
+
+Greed comes from deep insecurities and emotional voids that can create insatiable wants ; egoism comes from scarcity, when there won't be enough for everyone, but can also come from the fear that one's mistakes might undermine their worth ; and revenge comes from an unmet need for justice. Each of these are completely avoidable especially in a time of abundance such as ours.

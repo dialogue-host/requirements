@@ -1,77 +1,25 @@
 # 🌸 Dialogue
 
-- initial impulse (want to make the world a better place)
-- approach (think about the problem like)
-- philosophy / metaphysics
-- methodology
-- praxis (building dialogue)
+- initial problem / philosophy
+- approach / methodology / praxis
+- Ideas to express
+  - welcome humanity's diversity
+  - ability to learn, teach and collaborate.
+  - synthesize collective experience
+  - positivist view of liberty
+  - for individuals and the collective subjects they are part of
+  - unquestionable access to information, to privacy, to expression, to association, self-determination
+  - mutual care outbalance hatred
 
-Humanity's strive for existence underlies its entire history. Our social and cultural capabilities to cooperate and support one another empower us to preserve and open up our horizon of possibles by transforming and adapting our society and environment. This collective endeavor progresses through ever renewing systemic contradictions where we surpass one to face an other. Each of these steps is accomplished by people challenging the status quo, questioning the way their society is organized and proposing alternatives capable of solving the limitations inherent to the existing system.
+Humanity's strive for existence underlies its entire history. Our social and cultural capabilities to cooperate and support one another empower us to preserve and open up our horizon of possibles by transforming and adapting our society and environment. This collective endeavor progresses through ever renewing systemic contradictions where we surpass one to face an other. Each of these steps is accomplished by people that question the way their society is organized, propose alternatives capable of solving the limitations inherent to the existing system and enact this transformation. For this to happen, people need ways to communicate, think together and self organize even under any form of repression.
 
-Each of these steps is accomplished by the struggle of the dominated against the dominant
+We now have the technical tools needed to build a truly private, distributed social network.
 
-Engineering problem of enabling everyone to live in peace together.
-
-
-This process is one of deep internal struggle.
-Each of these stumbling blocks require deep social and economic transformations to be overcome.
-the daily involvement of people in society and its productive processes.
-
--- is productivism required here?
-
-systemic contradictions that
-
-Through this collective endeavor, we crafted many of the necessary building blocks required for positive liberty to unfold. We are progressively assembling through struggle and contradictions the capacity for people to self-determinate, developing more and more individual consciousness.
-
-But from this process of self elevation, the condition for concrete freedom and self-fulfillment is appearing through time to be a greater socialization carrying more collective consciousness. Blocks are still missing.
-
-The movement started with the concrete organization of society, passed by the individual and the growth of self-awareness and is fully developing through socialization and the growth of collective consciousness.
-
-Dialogue aims to be one of the building block supporting humanity's blossom.
-
-
-
-Humanity's strive for existence underlies and guides its entire history. Our social and cultural capabilities to collaborate and support one an other empowered us to preserve and open up our horizon of possibles.
-
-Through this collective endeavor, we crafted many of the necessary building blocks required for people to self-determinate.
-
-This building process is one of struggle, where every systemic contradiction has to be surpassed
-
-This capacity enables  self-contiousess.
-
-which brings a greater collective consciousness.
-
-enter an age where individual positive liberty can blossom.
-
-Each of these blocks grows the capacity of people to self-determinate. and brings a greater subjective consciousness.
-
-of the conditions for concrete freedom and self-fulfillment.
-
-Elevate consciousness
-As everyone seeks self fulfillment
-
-develop the requirement for individual positive liberty.
-
-
-
+Seek individual self fulfillment through collective means. Dialogue aims to be one of the building block supporting humanity's blossom.
 
 Dialogue aims to become a software infrastructure, able to catalyze, enable and empower peoples.
 
-in the face of systemic oppression and violent repression. It also ambition to serve as the software infrastructure for upcoming worker's led democracies.
-
-  ability to learn, teach and collaborate.
-la culture se place en rupture de la sélection naturelle individuelle
-
-Greed comes from deep insecurities and emotional voids that can create insatiable wants ; egoism comes from scarcity, when there won't be enough for everyone, but can also come from the fear that one's mistakes might undermine their worth ; and revenge comes from an unmet need for justice. Each of these are completely avoidable especially in a time of abundance such as ours.
-
-- synthesize collective experience
-- positivist view of liberty
-- welcome humanity's diversity
-- surpass contradictions
-- for individuals and the collective subjects they are part of
--
-- unquestionable access to information, to privacy, to expression, to association, self-determination
-- mutual care outbalance hatred
+---
 
 Through sciences and technologies, humanity has gained great mastery over nature but its social organization is still subordinated to individualistic short term interests. Deep systemic changes are needed for humanity to gain conscious control over its future and overcome self destructive socio-economical mechanisms.
 
