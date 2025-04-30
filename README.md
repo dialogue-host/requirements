@@ -1,8 +1,6 @@
 # 🌸 Dialogue
 
-## Introduction
-
-### Plan
+-- intro plan
 
 - initial problem / philosophy
 - approach / methodology / praxis
@@ -15,9 +13,9 @@
   - unquestionable access to information, to privacy, to expression, to association, self-determination
   - mutual care outbalance hatred
 
-### Current WIP
+-- current wip
 
-Humanity's strive for existence underlies its entire history. Our social and cultural capabilities to cooperate and support one another empower us to preserve and open up our horizon of possibles by transforming and adapting our society and environment. This collective endeavor progresses through ever renewing systemic contradictions where we surpass one to face an other. Each of these steps is accomplished by people that question the way their society is organized, propose alternatives capable of solving the limitations inherent to the existing system and enact this transformation. For this to happen, people need ways to communicate, think together and self organize even under any form of repression.
+Humanity's strive for existence underlies its entire history. Our social and cultural capabilities to cooperate and support one another empower us to preserve and open up our horizon of possibles by transforming and adapting our society and environment. This collective endeavor progresses through ever renewing systemic contradictions where we surpass one to face an other. Each of these steps is accomplished by people that question the way their society is organized, propose alternatives capable of solving the limitations inherent to the existing system and enact this transformation. For this to happen, people need ways to communicate, think together and self organize under any form of repression.
 
 We now have the technical tools needed to build a truly private, distributed social network.
 
@@ -25,7 +23,7 @@ Seek individual self fulfillment through collective means. Dialogue aims to be o
 
 Dialogue aims to become a software infrastructure, able to catalyze, enable and empower peoples.
 
-### Previous Version
+-- previous version
 
 Through sciences and technologies, humanity has gained great mastery over nature but its social organization is still subordinated to individualistic short term interests. Deep systemic changes are needed for humanity to gain conscious control over its future and overcome self destructive socio-economical mechanisms.
 
@@ -98,14 +96,14 @@ We will be using the `dialogue.host` domain at first and buy ones such as `dialo
 
 The visual identity has essentially the exact same requirements than the platform's name.
 
-The cherry flower 🌸 symbolizes hope, renewal and peace and its soft pink color brings care, kindness, playfulness and joy. Although pink can be stereotyped as feminine and romantic, these stereotypes have been challenged by various gender equality movements. Nevertheless to soften these prejudices we can use lighter pastel tones that are less connoted than brighter ones. The cherry blossom is a very poetic symbol as it embraces the perpetual transformation of the world and announces "le temps des cerises".
+The cherry flower 🌸 symbolizes hope, renewal and peace and its soft pink color brings care, kindness, playfulness and joy. The cherry blossom is a very poetic symbol as it embraces the perpetual transformation of the world and announces "le temps des cerises". Although pink can be stereotyped as feminine and romantic, these stereotypes have been challenged by various gender equality movements. Nevertheless to soften these prejudices we can use lighter pastel tones that are less connoted than brighter ones.
 
-But it is not a spotless symbol as it is deeply rooted in Japanese culture and has been used to motivate militarism, nationalism and sacrifice. But this association doesn't hold outside of Japan as in other asian countries and in the west it has - as we currently understand - mostly the above associations.
+But it is not a spotless symbol as it is deeply rooted in Japanese culture and has been used to motivate militarism, nationalism and kamikaze action. But this association doesn't hold outside of Japan as in other asian countries and in the west it has - as we currently understand - mostly the above associations.
 
 | ref | impact | problem/solution |
 | --: | ------ | ---------------- |
 | req1 | +++ | It is a beautiful symbol that matches the **optimistic**, **empathic**, **assertive** and **resilient** principles. |
-| req2 | ++- | It has an important cultural baggage in many cultures and is widely understood as a symbol of hope and renewal. |
+| req2 | ++- | It has an important cultural baggage in many cultures and is widely understood as a symbol of care, hope and renewal. |
 | req3 | +++ | The cherry flower is a very poetic symbol that is quite memorable. |
 
 ### Governance
@@ -126,6 +124,12 @@ The form that an organization takes, shapes what it produces. As we do not want 
 | 10. | Have processes to gather, answer and tackle user questions and remarks. | *empirical*, *accessible* and *sustainable* | *important* |
 | 11. | Be under the control of involved users but also defend the interests of peoples that aren't able to involve themselves in the same way. | *democratic* and *empathic* | *important* |
 | 12. | Changes to the core principles have to be difficult enough for the project not to stere off course and easy enough for them not to become obsolete. | *sustainable* | *crucial* |
+
+The project will happen in three phases : An initial phase where only the project's *initiators* are involved. A second phase where the project starts getting traction, more people get involved and the platform is built. And a third where the platform has to be maintained and improved. We consider different roles and responsibilities for each phase.
+
+During the first phase, the *initiators* will be responsible for defining the initial project's aims, epistemology and methodology through the first few versions of its requirements. They will also initiate the platform's dynamic culture and serve as the first members of the *governing organ*.
+
+For the next two phases the *governing organ* will be the deciding body responsible of the project's development and evolution.
 
 - roles
   - initiators
