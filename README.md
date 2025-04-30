@@ -1,5 +1,9 @@
 # 🌸 Dialogue
 
+## Introduction
+
+### Plan
+
 - initial problem / philosophy
 - approach / methodology / praxis
 - Ideas to express
@@ -11,6 +15,8 @@
   - unquestionable access to information, to privacy, to expression, to association, self-determination
   - mutual care outbalance hatred
 
+### Current WIP
+
 Humanity's strive for existence underlies its entire history. Our social and cultural capabilities to cooperate and support one another empower us to preserve and open up our horizon of possibles by transforming and adapting our society and environment. This collective endeavor progresses through ever renewing systemic contradictions where we surpass one to face an other. Each of these steps is accomplished by people that question the way their society is organized, propose alternatives capable of solving the limitations inherent to the existing system and enact this transformation. For this to happen, people need ways to communicate, think together and self organize even under any form of repression.
 
 We now have the technical tools needed to build a truly private, distributed social network.
@@ -19,7 +25,7 @@ Seek individual self fulfillment through collective means. Dialogue aims to be o
 
 Dialogue aims to become a software infrastructure, able to catalyze, enable and empower peoples.
 
----
+### Previous Version
 
 Through sciences and technologies, humanity has gained great mastery over nature but its social organization is still subordinated to individualistic short term interests. Deep systemic changes are needed for humanity to gain conscious control over its future and overcome self destructive socio-economical mechanisms.
 
@@ -37,14 +43,15 @@ Spotting ideas that lack clarity or words that need explanation - especially for
 
 ## Core Principles
 
-This section introduces the *core principles* we believe are needed for *Dialogue* to fulfill its goal. They are fairly general but clarify the aims of the platform.
+This section introduces the *core principles* we believe are needed for *Dialogue* to fulfill its goal. They are fairly general but clarify different aims of the platform.
 
-- **Empathic**: Support peoples physical and mental wellbeing, foster honesty, mutual respect and understanding, inclusiveness and constructive communication.
+- **Empathic**: Support peoples physical and mental well being, foster honesty, mutual respect and understanding, inclusiveness and constructive communication.
 - **Assertive**: Encourages people to stand up for their own needs and values, to confront differing opinions and ideas and promote moderation in the face of domination, harassment and instrumentalization.
 - **Optimistic**: Builds confidence in our collective ability to overcome current challenges and shape better futures through human ingenuity and collective action.
 - **Empowering**: Entrust people with control over their digital environment and support them with appropriate tools.
-- **Expressive**: Provide spaces and tools for collaborative content production, creative expression, public discourse and knowledge sharing.
-- **Informative**: Create community-driven systems for news gathering, investigation and reporting able to highlights biasses and diverging opinions.
+- **Collaborative**: Foster collaboration, cooperation and collective creative work among people, groups and communities.
+- **Expressive**: Provide spaces for creative expression, public discourse and knowledge sharing.
+- **Informative**: Create community-driven systems for news gathering, investigation and reporting able to highlight biases and diverging opinions.
 - **Democratic**: Make bottom up, collective human organizing and decision-making more efficient, reliable and accessible than centralized systems both at local and global scales.
 - **Deliberate**: Provide methods and tools for collaborative deliberation, discussion and thoughtful consideration of differing opinions.
 - **Accessible**: Ensure accessibility and ease of use to the largest amount of people possible by considering their technical knowledge, economical status, cultural background, physical and mental disabilities, language, literacy and every other possibly hindering factor.
@@ -58,7 +65,7 @@ This section introduces the *core principles* we believe are needed for *Dialogu
 - **Empirical**: Rigorously justify, study and stress test every feature to ensure its functioning truly matches its intent.
 - **Transparent**: Actively expose and explain all platform mechanisms, algorithmic systems, and community processes, enabling informed user participation and control.
 
-The principles are sorted in no particular order. The numbers are only there for referencing sake. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
+The principles are sorted in no particular order. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
 
 ## Requirements
 
@@ -78,18 +85,32 @@ We group requirements into different *systems*. We aim to minimize their size an
 
 > A dialogue consists of a cross-examination of different speeches, all of which commit their author. It is not about imposing a cognitive point of view, a perspective or reference. Each word transmitted in communication seeks to be decoded and received by the recipient, then to signify something that has meaning in their own existence. Dialogue calls for the actors of communication to be transformed in their being, in complete freedom. Active listening, sincere humility and mutual respect are therefore necessary. A successful dialogue produces a diagnosis integrating all the arguments of the participants and a conclusion in which they all agree. - *paraphrasing french wikipedia*
 
-The *plan* is to fully own that name, build a visual identity around it and get a cheap domain names such as `dialogue-crowd.net`, `dialogue-crowd.media` or `dialogue-social.media`. We will be able to buy a more ideal domain names such as `dialogue.net` and `dialogue.media` as the project gains traction and funding.
+We will be using the `dialogue.host` domain at first and buy ones such as `dialogue.net` and `dialogue.media` as the project gains traction and funding.
 
 | ref | impact | problem/solution |
 | --: | ------ | ---------------- |
 | req1 | +++ | The notion of dialogue has a clear social aspect, it reflects really well the idea that people are here to listen to one an other (*empathic*), exchange thoughts and ideas (*expressive*), find contradictions in their differing view points (*informative* and *empirical*) and collaborate toward possible solutions (*optimistic* and *democratic*). |
 | req2 | ++ | This name also is easy to pronounce and has the same meaning in many languages. |
 | req3 | + | It isn't widely used online and a quick search mostly lists dictionaries so it might also be a good name for SEO. Also the ideal domains are unused as of now. |
-| cost | - | The `dialogue.net`(registered but unused) and `dialogue.media` (6600$ on [porkbun](porkbun.com)) domains are quite expensive. |
+| cost | - | The `dialogue.net`(registered but unused) and `dialogue.media` (6600$ on [porkbun](porkbun.com)) domains are quite expensive although `dialogue.host` is already a fairly good domain. |
+
+### Visual Identity
+
+The visual identity has essentially the exact same requirements than the platform's name.
+
+The cherry flower 🌸 symbolizes hope, renewal and peace and its soft pink color brings care, kindness, playfulness and joy. Although pink can be stereotyped as feminine and romantic, these stereotypes have been challenged by various gender equality movements. Nevertheless to soften these prejudices we can use lighter pastel tones that are less connoted than brighter ones. The cherry blossom is a very poetic symbol as it embraces the perpetual transformation of the world and announces "le temps des cerises".
+
+But it is not a spotless symbol as it is deeply rooted in Japanese culture and has been used to motivate militarism, nationalism and sacrifice. But this association doesn't hold outside of Japan as in other asian countries and in the west it has - as we currently understand - mostly the above associations.
+
+| ref | impact | problem/solution |
+| --: | ------ | ---------------- |
+| req1 | +++ | It is a beautiful symbol that matches the **optimistic**, **empathic**, **assertive** and **resilient** principles. |
+| req2 | ++- | It has an important cultural baggage in many cultures and is widely understood as a symbol of hope and renewal. |
+| req3 | +++ | The cherry flower is a very poetic symbol that is quite memorable. |
 
 ### Governance
 
-Governance might be the most difficult challenge of all. We have to take it very seriously as this is the deciding factor on weather the platform keeps upholding its *core principles* or weather it ends up steering in an unfavorable direction.
+The form that an organization takes, shapes what it produces. As we do not want Dialogue to steer off course, we have to be very thoughtful of the way we structure ourselves, take decisions and operate.
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
@@ -146,35 +167,38 @@ A programming language in and of itself is a user interface that serves as a mod
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
 | 1. | Minimize the amount of primitives, concepts and programming techniques needed to master the language. | *accessible* | *crucial* |
-| 4. | Minimize the potential for making mistakes and creating bugs. | *sustainable*, *resilient* and *accessible* | *crucial* |
-| 5. | Make side effects very explicit and controllable to minimize the potential for hiding malicious code and unintended behaviors. | *transparent*, *sustainable* and *resilient* | *crucial* |
-| 7. | Make metaprogramming simple to support tooling development, code property verification, good practice enforcement and enable compiler self-hosting. | *sustainable*, *secure*, *attractive* and *accessible* | *important* |
-| 8. | Enable partial and complete code hot swapping even in production. | *modularity* | *crucial* |
-| 9. | Encourage good development practices such as test driven development. | *sustainable* | *important* |
-| 10. | Enable spoken language code translation. | *accessible* | *important* |
-| 11. | Maximize compile time optimization and parallelization. | *accessible* | *important* |
-| 12. | Look familiar to seasoned developers and be adaptable to different syntax preferences. | *attractive* and *modular* | *desirable* |
-| 13. | Make white-space syntactically insignificant for the language to be more resilient to copy-paste and LLM usage. | *accessible* | *desirable* |
-| 14. | Enable seem less peer to peer communication and data synchronization. | *resilient*, *independent* and *accessible* | *crucial* |
-| 15. | Integrate [evergreen migrations](https://www.youtube.com/watch?v=4T6nZffnfzg) as the essential method for transitioning versions. | *sustainable* | *desirable* |
-| 15. | Incorporate systems for version control, p2p distribution and deployment to ensure maintainability. | *sustainable* and *resilient* | *crucial* |
-
---todo: separate concerns (req15 should be in package manager)
+| 2. | Minimize the potential errors and bugs. | *sustainable*, *resilient* and *accessible* | *crucial* |
+| 3. | Make side effects very explicit and controllable to minimize the potential for hiding malicious code in packages and extensions. | *transparent*, *sustainable* and *resilient* | *crucial* |
+| 4. | Have first class meta-programming to support tooling development, code property verification and good practice enforcement. | *sustainable*, *secure*, *attractive* and *accessible* | *important* |
+| 5. | Enable partial and complete code hot swapping even in production. | *modularity* | *crucial* |
+| 6. | Encourage good development practices such as test driven development. | *sustainable* | *important* |
+| 7. | Enable spoken language code translation. | *accessible* | *important* |
+| 8. | Maximize compile time optimization and parallelization. | *accessible* | *important* |
+| 9. | Look familiar to seasoned developers. | *attractive* and *modular* | *desirable* |
+| 10. | Make white-space syntactically insignificant for the language to be more resilient to copy-paste and LLM usage. | *accessible* | *desirable* |
+| 11. | Encourage locality of behavior to improve maintainability and readability. | *sustainable*, *resilient* and *accessible* | *important* |
 
 ### Compiler and Interpreter
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
-| 2. | Print explicit and helpful compiler errors to guide programmers through their refactors. | *sustainable* and *accessible* | *crucial* |
-| 3. | Minimize compilation time to shorten the development feedback loop. | *attractive*, *accessible* and *sustainable* | *crucial* |
-| 6. | Compilation targets be modular to make the code portable to the largest pool of devices and browsers possible. | *accessible* and *sustainable* | *crucial* |
-| 7. | Handle translation tables to translate code from one spoken language to an other. | *accessible* | *important* |
+| 1. | Print explicit and helpful compiler errors to guide programmers through their refactors. | *sustainable* and *accessible* | *crucial* |
+| 2. | Minimize compilation time to shorten the development feedback loop. | *attractive*, *accessible* and *sustainable* | *crucial* |
+| 3. | Compilation targets be modular to make the code portable to the largest pool of devices and browsers possible. | *accessible* and *sustainable* | *crucial* |
+| 4. | Handle translation tables to translate code from one spoken language to an other. | *accessible* | *important* |
 
-### Versioning
+### Peer to Peer Library
 
-### Peer to Peer
+| ref | requirement | fulfills | priority |
+| --: | ----------- | -------- | -------- |
+| 1. | Enable seem less peer to peer communication and data synchronization. | *resilient*, *independent* and *accessible* | *crucial* |
 
-### Package Manager
+### Package, Versioning and Distribution Manager
+
+| ref | requirement | fulfills | priority |
+| --: | ----------- | -------- | -------- |
+| 1. | Incorporate systems for version control, p2p package distribution and deployment to ensure maintainability. | *sustainable* and *resilient* | *crucial* |
+| 2. | Integrate [evergreen migrations](https://www.youtube.com/watch?v=4T6nZffnfzg) as the essential method for transitioning versions. | *sustainable* | *desirable* |
 
 ### IDE and GUI
 
@@ -186,8 +210,6 @@ A programming language in and of itself is a user interface that serves as a mod
 | 2. | Focus on readability at every size. | *accessible* and *sustainable* | *crucial* |
 | 3. | Be monospace for use in programming. | required for [Dialang](#programming-language-dialang) | *crucial* |
 | 4. | Has a consistent style that matches [dialogue's visual identity](#visual-identity). | *attractive* | *desirable* |
-
-### Visual Identity
 
 ### Teaching Material
 

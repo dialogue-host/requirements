@@ -1,13 +1,11 @@
-dictionaries = []
 words = [
+    "dialang",
     "elric",
     "idal",
+    "instrumentalization",
     "iroh",
+    "llm",
     "naruto",
     "sasuke",
     "transformative",
 ]
-flag_words = []
-ignore_paths = []
-ignore_patterns = []
-use_global = true
