@@ -118,8 +118,8 @@ The form that an organization takes, shapes what it produces. As we do not want 
 | 4. | Prevent state or corporate interests from infiltrating and/or taking over deciding bodies. | *independent* | *critical* |
 | 5. | The organization, its development processes and infrastructure are resilient to state level interdiction and repression. | *resilient* | *desirable* |
 | 6. | The concrete effects of every decision have to be evaluated, compared to its intent and corrected in case of misalignment. | *empirical* | *critical* |
-| 7. | Support and credit contributors to ensure their longevity and recognition. | *sustainable* | *important* |
-| 8. | Be representative of human diversity. | *empathic* | *desirable* |
+| 7. | Support and credit contributors to ensure their longevity and recognition. | *sustainable* | *desirable * |
+| 8. | Be representative of human diversity. | *empathic* | *crucial* |
 | 9. | Communicate enthusiastically over the work being done, the problems being solved and the systems being built toward. | *optimistic* and *attractive* | *desirable* |
 | 10. | Have processes to gather, answer and tackle user questions and remarks. | *empirical*, *accessible* and *sustainable* | *important* |
 | 11. | Be under the control of involved users but also defend the interests of peoples that aren't able to involve themselves in the same way. | *democratic* and *empathic* | *important* |
@@ -130,6 +130,8 @@ The project will happen in three phases : An initial phase where only the projec
 During the first phase, the *initiators* will be responsible for defining the initial project's aims, epistemology and methodology through the first few versions of its requirements. They will also initiate the platform's dynamic culture and serve as the first members of the *governing organ*.
 
 For the next two phases the *governing organ* will be the deciding body responsible of the project's development and evolution.
+
+All other contributors will be part of the *contributor agora*. They can provide feedback, report bugs, and suggest improvements.
 
 - roles
   - initiators
@@ -166,30 +168,28 @@ For now though, we are too early in the platform's development to clearly sketch
 
 ### Programming Language (Dialang)
 
-A programming language in and of itself is a user interface that serves as a model for thinking about and describing processes. It is one of the most basic building blocks of the platform and it has to be perfectly suited to its needs. We need fertile soil to grow a fruitful tree.
+The programming language is one of the most basic building blocks of the platform and it has to be properly suited to its needs. Sadly no existing programming language is close enough to the following requirements so we have to create our own. We need fertile soil to grow a fruitful tree.
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
 | 1. | Minimize the amount of primitives, concepts and programming techniques needed to master the language. | *accessible* | *crucial* |
-| 2. | Minimize the potential errors and bugs. | *sustainable*, *resilient* and *accessible* | *crucial* |
+| 2. | Minimize the potential for errors and bugs. | *sustainable*, *resilient* and *accessible* | *crucial* |
 | 3. | Make side effects very explicit and controllable to minimize the potential for hiding malicious code in packages and extensions. | *transparent*, *sustainable* and *resilient* | *crucial* |
-| 4. | Have first class meta-programming to support tooling development, code property verification and good practice enforcement. | *sustainable*, *secure*, *attractive* and *accessible* | *important* |
-| 5. | Enable partial and complete code hot swapping even in production. | *modularity* | *crucial* |
-| 6. | Encourage good development practices such as test driven development. | *sustainable* | *important* |
-| 7. | Enable spoken language code translation. | *accessible* | *important* |
-| 8. | Maximize compile time optimization and parallelization. | *accessible* | *important* |
-| 9. | Look familiar to seasoned developers. | *attractive* and *modular* | *desirable* |
-| 10. | Make white-space syntactically insignificant for the language to be more resilient to copy-paste and LLM usage. | *accessible* | *desirable* |
-| 11. | Encourage locality of behavior to improve maintainability and readability. | *sustainable*, *resilient* and *accessible* | *important* |
+| 4. | Have first class meta-programming to support tooling development, code property verification and good practice enforcement. | *sustainable*, *secure*, *attractive* and *accessible* | *crucial* |
+| 5. | Enable spoken language code translation. | *accessible* | *crucial* |
+| 6. | Look familiar to seasoned developers. | *attractive* and *modular* | *desirable* |
+| 7. | Make white-space syntactically insignificant to make the language more resilient to copy-paste and LLM usage. | *accessible* | *desirable* |
 
-### Compiler and Interpreter
+### Compiler/Interpreter
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
 | 1. | Print explicit and helpful compiler errors to guide programmers through their refactors. | *sustainable* and *accessible* | *crucial* |
 | 2. | Minimize compilation time to shorten the development feedback loop. | *attractive*, *accessible* and *sustainable* | *crucial* |
-| 3. | Compilation targets be modular to make the code portable to the largest pool of devices and browsers possible. | *accessible* and *sustainable* | *crucial* |
-| 4. | Handle translation tables to translate code from one spoken language to an other. | *accessible* | *important* |
+| 3. | Handle an extendable list of compilation targets to make the code portable to many present and future supports. | *accessible* and *sustainable* | *important* |
+| 4. | Handle translation tables, modular lexers, parsers and code generators to translate code back and forth from one spoken language to an other. | *accessible* | *important* |
+| 5. | Enable partial and complete code hot swapping even in production. | *modularity* | *crucial* |
+| 6. | Minimize bundle size, runtime speed and memory usage. | *sustainable*, *accessible* and *attractive* | *desirable* |
 
 ### Peer to Peer Library
 
@@ -206,16 +206,16 @@ A programming language in and of itself is a user interface that serves as a mod
 
 ### IDE and GUI
 
+### Teaching Material
+
 ### Font
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
-| 1. | Covers every character/symbol/glyph from every language and their writing directions (RTL, LTR, TTB). | *accessible* | *crucial* |
+| 1. | Covers every character/symbol/glyph from every language and their writing directions (RTL, LTR, TTB). | *accessible* | *important* |
 | 2. | Focus on readability at every size. | *accessible* and *sustainable* | *crucial* |
 | 3. | Be monospace for use in programming. | required for [Dialang](#programming-language-dialang) | *crucial* |
 | 4. | Has a consistent style that matches [dialogue's visual identity](#visual-identity). | *attractive* | *desirable* |
-
-### Teaching Material
 
 ### Programming Toolset (legacy)
 
@@ -324,7 +324,7 @@ Users :
 - **Org** : Group of *entities* organizing together. They have an *aim*, *processes* and a *record*. It might be publicly visible or private in which case only its *members* and some other authorized *entities* know it exists. *Members* may share *content* internally.
 - **Device** : Hardware *device* interacting with various parts of the platform.
 - **Legal Entity** : *Entity* having a legal existence outside of the platform. It might be a company, an ONG, an individual, a state, an institution, etc.
-- **Server** : *Device* providing storage and replication of *entities* encrypted data. A *person* might setup its own *server* or use one provided by a *legal entity*. They must be able to switch or leave *servers* at any time.
+- **Server** : *Device* providing storage and replication of *entities* encrypted data. A *person* might setup its own *server* or use one provided by a *legal entity*. *People* must be able to easily switch or leave *servers* at any time.
 - **Fiscal Host** : *Legal entity* which holds different *entities*’s funds in their bank account and enable them to receive and spend money. This concept corresponds to [Open Collective's fiscal hosts](https://docs.opencollective.com/help/fiscal-hosts/fiscal-hosts).
 - **Authn** : Every *device* has one or more authenticated *peoples*.
 
