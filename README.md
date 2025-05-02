@@ -1,69 +1,59 @@
 # 🌸 Dialogue
 
--- intro plan
+**Tools for all humans to collectively think, decide and act under any form of repression.**
 
-- initial problem / philosophy
-- approach / methodology / praxis
-- Ideas to express
-  - welcome humanity's diversity
-  - ability to learn, teach and collaborate.
-  - synthesize collective experience
-  - positivist view of liberty
-  - for individuals and the collective subjects they are part of
-  - unquestionable access to information, to privacy, to expression, to association, self-determination
-  - mutual care outbalance hatred
+---
 
--- current wip
+## Core Principles
 
-Humanity's strive for existence underlies its entire history. Our social and cultural capabilities to cooperate and support one another empower us to preserve and open up our horizon of possibles by transforming and adapting our society and environment. This collective endeavor progresses through ever renewing systemic contradictions where we surpass one to face an other. Each of these steps is accomplished by people that question the way their society is organized, propose alternatives capable of solving the limitations inherent to the existing system and enact this transformation. For this to happen, people need ways to communicate, think together and self organize under any form of repression.
+This section introduces the *core principles* we believe are needed for *Dialogue* to fulfill its goal. They are fairly general but each clarify an aim of the platform. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
 
-We now have the technical tools needed to build a truly private, distributed social network.
+### Tools
 
-Seek individual self fulfillment through collective means. Dialogue aims to be one of the building block supporting humanity's blossom.
+Tools have to be mastered by their users for them to understand their strengths, limitations and to adapt them to specific needs. The ins and outs of the platform have to be transparent to anyone interested.
 
-Dialogue aims to become a software infrastructure, able to catalyze, enable and empower peoples.
+- **Transparent**: Actively expose and explain all platform mechanisms, algorithmic systems, and community processes, enabling informed user participation and control.
+- **Modular**: Support community-driven development by building every interface and algorithm as replaceable components.
+- **Empirical**: Rigorously justify, study and stress test every feature to ensure its functioning truly matches its intent.
 
--- previous version
+### For All Humans
 
-Through sciences and technologies, humanity has gained great mastery over nature but its social organization is still subordinated to individualistic short term interests. Deep systemic changes are needed for humanity to gain conscious control over its future and overcome self destructive socio-economical mechanisms.
+Everyone has to feel welcomed on the platform, no matter their culture and physical appearance.
 
-The future organization of society will have to go beyond national boundaries, welcome humanity's intrinsic diversity and defend a positivist view of liberty. For this to be possible in practice, both economical and political processes must be voluntarily, actively and deliberately built by the self-governing masses. Thereby arises the need for tools enabling local and global collective organizing and decision making able to guarantee the universal right to expression, to information, to association, to privacy and to self-determination both during periods of calm and socio-political turmoil.
+- **Empathic**: Support peoples physical and mental well being, foster honesty, mutual respect and understanding, inclusiveness and constructive communication.
+- **Assertive**: Encourages people to stand up for their own needs and values, to confront differing opinions and ideas and promote moderation in the face of domination, harassment and instrumentalization.
+- **Accessible**: Ensure accessibility and ease of use to the largest amount of people possible by considering their technical knowledge, economical status, cultural background, physical and mental disabilities, language, literacy and every other possibly hindering factor.
+- **Attractive**: Bring local and online communities onboard by implementing win win mechanisms and focusing on their concrete needs.
 
-Dialogue aims to become this software infrastructure, able to catalyze, enable and empower participatory democracies in the face of systemic opposition and violent repression. It also ambition to serve as the software infrastructure for upcoming worker's led democracies.
+### Collectively Think
 
-Building such a decentralized social network is a humongous task that can only be completed with the coordination of a large pool of engineers, programers, designers, scientists, journalists, artists and more. This document is a first attempt at clarifying its requirements in order to structure and orient everyone's work toward a clear and unified goal.
+- **Empowering**: Entrust people with control over their digital environment and enable them to decide on the sort of content they want to be exposed to or to moderate.
+- **Collaborative**: Foster collaboration, cooperation and collective creative work among people, groups and communities.
+- **Expressive**: Provide spaces for creative expression, public discourse and knowledge sharing.
+- **Informative**: Create community-driven systems for news gathering, investigation and reporting able to highlight biases and diverging opinions.
+
+### Collectively Decide
+
+- **Democratic**: Make bottom up, collective human organizing and decision-making more efficient, reliable and accessible than centralized systems both at local and global scales.
+- **Deliberate**: Provide methods and tools for collaborative deliberation, discussion and thoughtful consideration of differing opinions.
+
+### Collectively Act
+
+- **Optimistic**: Builds confidence in our collective ability to overcome current challenges and shape better futures through human ingenuity and collective action.
+- **Sustainable**: Ensure the platform's social and technical foundations remain viable and relevant across generational timescales.
+
+### Under Any Form of Repression
+
+- **Private**: Guarantee personal data sovereignty and communication confidentiality.
+- **Resilient**: Maintain platform availability and usability even in places where it has been outlawed.
+- **Safe**: Ensure users can communicate without fear of identification or retribution even in repressive environments.
+- **Independent**: Organize platform architecture and governance in a way that can resist and survive possible coercion from states or multinational corporations.
 
 ## Contribute
 
 The current priority is to complete this document, to clarify its concepts and to start designing the platform's architecture. The best way for you to contribute is to send your remarks and suggestions as a *GitHub* issue or sending them directly to me.
 
 Spotting ideas that lack clarity or words that need explanation - especially for people with no technical background - is of interest. Many technical aspects are lacking as this document is work in progress but please inform us about any consideration that we might be missing. There is no dumb remarks as long as they are stated in a respectful manner.
-
-## Core Principles
-
-This section introduces the *core principles* we believe are needed for *Dialogue* to fulfill its goal. They are fairly general but clarify different aims of the platform.
-
-- **Empathic**: Support peoples physical and mental well being, foster honesty, mutual respect and understanding, inclusiveness and constructive communication.
-- **Assertive**: Encourages people to stand up for their own needs and values, to confront differing opinions and ideas and promote moderation in the face of domination, harassment and instrumentalization.
-- **Optimistic**: Builds confidence in our collective ability to overcome current challenges and shape better futures through human ingenuity and collective action.
-- **Empowering**: Entrust people with control over their digital environment and support them with appropriate tools.
-- **Collaborative**: Foster collaboration, cooperation and collective creative work among people, groups and communities.
-- **Expressive**: Provide spaces for creative expression, public discourse and knowledge sharing.
-- **Informative**: Create community-driven systems for news gathering, investigation and reporting able to highlight biases and diverging opinions.
-- **Democratic**: Make bottom up, collective human organizing and decision-making more efficient, reliable and accessible than centralized systems both at local and global scales.
-- **Deliberate**: Provide methods and tools for collaborative deliberation, discussion and thoughtful consideration of differing opinions.
-- **Accessible**: Ensure accessibility and ease of use to the largest amount of people possible by considering their technical knowledge, economical status, cultural background, physical and mental disabilities, language, literacy and every other possibly hindering factor.
-- **Attractive**: Bring local and online communities onboard by implementing win win mechanisms and focusing on their concrete needs.
-- **Private**: Guarantee personal data sovereignty and communication confidentiality.
-- **Resilient**: Maintain platform availability and usability even in places where it has been outlawed.
-- **Safe**: Ensure users can communicate without fear of identification or retribution even in repressive environments.
-- **Modular**: Support community-driven development by building every interface and algorithm as replaceable components.
-- **Independent**: Organize platform architecture and governance in a way that can resist and survive possible coercion from states or multinational corporations.
-- **Sustainable**: Ensure the platform's social and technical foundations remain viable and relevant across generational timescales.
-- **Empirical**: Rigorously justify, study and stress test every feature to ensure its functioning truly matches its intent.
-- **Transparent**: Actively expose and explain all platform mechanisms, algorithmic systems, and community processes, enabling informed user participation and control.
-
-The principles are sorted in no particular order. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
 
 ## Requirements
 
@@ -203,6 +193,8 @@ The programming language is one of the most basic building blocks of the platfor
 | --: | ----------- | -------- | -------- |
 | 1. | Incorporate systems for version control, p2p package distribution and deployment to ensure maintainability. | *sustainable* and *resilient* | *crucial* |
 | 2. | Integrate [evergreen migrations](https://www.youtube.com/watch?v=4T6nZffnfzg) as the essential method for transitioning versions. | *sustainable* | *desirable* |
+
+### Graphics Library
 
 ### IDE and GUI
 
