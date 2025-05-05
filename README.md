@@ -1,4 +1,4 @@
-# 🌸 Dialogue
+# 🌸 Dialogue Social Media
 
 **Tools for all humans to collectively think, decide and act under any form of repression.**
 
@@ -6,41 +6,38 @@
 
 ## Core Principles
 
-This section introduces the *core principles* we believe are needed for *Dialogue* to fulfill its goal. They are fairly general but each clarify an aim of the platform. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
+Dialogue is thought out as a set of tools that are made and addapted to fulfill the specific task described above. The following *core principles* clarify the manner in which it is done. They are fairly general but each highlights an aspect of the platform. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
 
 ### Tools
 
-Tools have to be mastered by their users for them to understand their strengths, limitations and to adapt them to specific needs. The ins and outs of the platform have to be transparent to anyone interested.
-
-- **Transparent**: Actively expose and explain all platform mechanisms, algorithmic systems, and community processes, enabling informed user participation and control.
-- **Modular**: Support community-driven development by building every interface and algorithm as replaceable components.
+- **Transparent**: Actively expose and explain all platform mechanisms, algorithmic systems, and community processes to enable informed user participation and control.
+- **Modular**: Support community-driven development by building every interface and algorithm as swappable components that can be addapted to user's specific needs.
 - **Empirical**: Rigorously justify, study and stress test every feature to ensure its functioning truly matches its intent.
 
 ### For All Humans
 
-Everyone has to feel welcomed on the platform, no matter their culture and physical appearance.
-
 - **Empathic**: Support peoples physical and mental well being, foster honesty, mutual respect and understanding, inclusiveness and constructive communication.
 - **Assertive**: Encourages people to stand up for their own needs and values, to confront differing opinions and ideas and promote moderation in the face of domination, harassment and instrumentalization.
-- **Accessible**: Ensure accessibility and ease of use to the largest amount of people possible by considering their technical knowledge, economical status, cultural background, physical and mental disabilities, language, literacy and every other possibly hindering factor.
+- **Accessible**: Ensure accessibility and ease of use to the largest amount of people possible by considering technical knowledge, economical status, cultural background, physical and mental disabilities, spoken languages, literacy and every other possibly hindering factor.
+- **Generational**: Ensure the platform's social and technical foundations remain viable and relevant across generational timescales.
 - **Attractive**: Bring local and online communities onboard by implementing win win mechanisms and focusing on their concrete needs.
 
-### Collectively Think
+### To Collectively Think
 
-- **Empowering**: Entrust people with control over their digital environment and enable them to decide on the sort of content they want to be exposed to or to moderate.
+- **Empowering**: Entrust people with control over their digital environment and enable them to decide on contents they want to be exposed to or to moderate.
 - **Collaborative**: Foster collaboration, cooperation and collective creative work among people, groups and communities.
 - **Expressive**: Provide spaces for creative expression, public discourse and knowledge sharing.
 - **Informative**: Create community-driven systems for news gathering, investigation and reporting able to highlight biases and diverging opinions.
 
-### Collectively Decide
+### To Collectively Decide
 
-- **Democratic**: Make bottom up, collective human organizing and decision-making more efficient, reliable and accessible than centralized systems both at local and global scales.
 - **Deliberate**: Provide methods and tools for collaborative deliberation, discussion and thoughtful consideration of differing opinions.
+- **Democratic**: Make bottom up, collective human decision-making more efficient, reliable and accessible than centralized systems both at local and global scales.
 
-### Collectively Act
+### To Collectively Act
 
 - **Optimistic**: Builds confidence in our collective ability to overcome current challenges and shape better futures through human ingenuity and collective action.
-- **Sustainable**: Ensure the platform's social and technical foundations remain viable and relevant across generational timescales.
+- **Sustainable**: Implement various means for platform developers, content creators and other contributors to get revenue and sustain threir work on the long term.
 
 ### Under Any Form of Repression
 
@@ -88,7 +85,7 @@ The visual identity has essentially the exact same requirements than the platfor
 
 The cherry flower 🌸 symbolizes hope, renewal and peace and its soft pink color brings care, kindness, playfulness and joy. The cherry blossom is a very poetic symbol as it embraces the perpetual transformation of the world and announces "le temps des cerises". Although pink can be stereotyped as feminine and romantic, these stereotypes have been challenged by various gender equality movements. Nevertheless to soften these prejudices we can use lighter pastel tones that are less connoted than brighter ones.
 
-But it is not a spotless symbol as it is deeply rooted in Japanese culture and has been used to motivate militarism, nationalism and kamikaze action. But this association doesn't hold outside of Japan as in other asian countries and in the west it has - as we currently understand - mostly the above associations.
+But it is not a spotless symbol as it has been used to motivate japanese militarism, nationalism and kamikaze action. But this association doesn't seem to be too deeply ingrained in the japanese imaginary and doesn't seem to come up anywhere else (as of our current understanding).
 
 | ref | impact | problem/solution |
 | --: | ------ | ---------------- |
@@ -119,16 +116,19 @@ The project will happen in three phases : An initial phase where only the projec
 
 During the first phase, the *initiators* will be responsible for defining the initial project's aims, epistemology and methodology through the first few versions of its requirements. They will also initiate the platform's dynamic culture and serve as the first members of the *governing organ*.
 
-For the next two phases the *governing organ* will be the deciding body responsible of the project's development and evolution.
+For the next two phases the *governing organ* will be the deciding body responsible of the project's development and evolution. ...
 
-All other contributors will be part of the *contributor agora*. They can provide feedback, report bugs, and suggest improvements.
+All other contributors will be part of the *contributor agora*. They can provide feedback, report bugs, and suggest improvements. ...
 
 - roles
   - initiators
     - define the initial project's aims, epistemology and methodology through its requirements
     - initiate the platform's dynamic culture
   - governing organ
-    - admission process based on understanding and accordance with project aims, epistemology and methodology
+    - admission process based on implication level, understanding and accordance with project aims, epistemology and methodology
+    - measures
+      - empathy -> active listening
+      - impication -> reading a corpus of content
     - exclusion process
     - rehabilitation process and transformative and restorative justice
     - continuous internal transformation process
@@ -196,7 +196,11 @@ The programming language is one of the most basic building blocks of the platfor
 
 ### Graphics Library
 
-### IDE and GUI
+### IDE
+
+### GUI
+
+Code is a great interface for describing an application's logic but graphical tools are much more adapted when in comes to interfaces and graphic design.
 
 ### Teaching Material
 
