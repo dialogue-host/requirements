@@ -1,4 +1,4 @@
-# 🌸 Dialogue Social Media
+# 🌸 Dialogue - Social Media
 
 **Tools for all humans to collectively think, decide and act under any form of repression.**
 
@@ -6,12 +6,12 @@
 
 ## Core Principles
 
-Dialogue is thought out as a set of tools that are made and addapted to fulfill the specific task described above. The following *core principles* clarify the manner in which it is done. They are fairly general but each highlights an aspect of the platform. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
+Dialogue is thought out as a set of tools that are made and addapted to fulfill its *aim* described above. The following *core principles* clarify the manner in which it is done. They are fairly general but each highlights different aspects of the platform. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
 
 ### Tools
 
 - **Transparent**: Actively expose and explain all platform mechanisms, algorithmic systems, and community processes to enable informed user participation and control.
-- **Modular**: Support community-driven development by building every interface and algorithm as swappable components that can be addapted to user's specific needs.
+- **Modular**: Support community-driven development by building every interface and algorithm as swappable components that can be addapted by users to their specific needs.
 - **Empirical**: Rigorously justify, study and stress test every feature to ensure its functioning truly matches its intent.
 
 ### For All Humans
@@ -48,13 +48,13 @@ Dialogue is thought out as a set of tools that are made and addapted to fulfill 
 
 ## Contribute
 
-The current priority is to complete this document, to clarify its concepts and to start designing the platform's architecture. The best way for you to contribute is to send your remarks and suggestions as a *GitHub* issue or sending them directly to me.
+Our current priority is to complete this document, to clarify its concepts and to start designing the platform's architecture. The best way for you to contribute is to send your remarks and suggestions as a *GitHub* issue or sending them directly to me.
 
 Spotting ideas that lack clarity or words that need explanation - especially for people with no technical background - is of interest. Many technical aspects are lacking as this document is work in progress but please inform us about any consideration that we might be missing. There is no dumb remarks as long as they are stated in a respectful manner.
 
 ## Requirements
 
-Here we build up a set of requirements. They are classified either as *critical*, *important*, *desirable* or *two sided*. We also state which *core principle* each aims to fulfill. The reasoning justifying their prioritization and expected impacts has to be described if not self evident. The quality of a requirement comes from its clarity, concision, completeness, consistency, correctness, concreteness, specificity, measurability and actionability. We write the requirements using assertive wordings.
+Here we build up a set of requirements. They are classified either as *crucial*, *important*, *desirable* or *two sided*. We also state which *core principle* each aims to fulfill. The reasoning justifying their prioritization and expected impacts has to be described if not self evident. The quality of a requirement comes from its clarity, concision, completeness, consistency, correctness, concreteness, specificity, measurability and actionability. We write the requirements using assertive wordings.
 
 We group requirements into different *systems*. We aim to minimize their size and interdependency. For each, we describe the *plan* we expect to follow to get the *system* to a complete state. The quality of a *plan* is evaluated based on how well it fulfills the requirements, which uncertainties it presents, how well the costs are balanced with sources of funding, which peoples and communities could be interested in contributing, how much work and time is required to attain completion.
 
@@ -62,7 +62,7 @@ We group requirements into different *systems*. We aim to minimize their size an
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
-| 1. | Have a meaning that mirrors the platform's intent and purposes. | *transparent* and *attractive* | *critical* |
+| 1. | Have a meaning that mirrors the platform's intent and purposes. | *transparent* and *attractive* | *crucial* |
 | 2. | Be readable and pronounceable in a large amount of languages. | *accessible* | *important* |
 | 3. | Be memorable and findable. | *attractive* | *important* |
 
@@ -95,22 +95,21 @@ But it is not a spotless symbol as it has been used to motivate japanese militar
 
 ### Governance
 
-The form that an organization takes, shapes what it produces. As we do not want Dialogue to steer off course, we have to be very thoughtful of the way we structure ourselves, take decisions and operate.
+The form that an organization takes shapes what it produces. As we do not want Dialogue to steer off course, we have to be very thoughtful of the way we structure ourselves, take decisions and operate.
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
-| 1. | Decisions are always justified relative to the platform's goal and *core principles*. | *sustainable* | *critical* |
-| 2. | People are trained to constantly adapt their structures and processes to changing circumstances. | *resilient* and *sustainable* | *critical* |
-| 3. | Funding, processes and decisions are expressed publicly in a complete and comprehensive manner. | *accessible* and *transparent* | *important* |
-| 4. | Prevent state or corporate interests from infiltrating and/or taking over deciding bodies. | *independent* | *critical* |
-| 5. | The organization, its development processes and infrastructure are resilient to state level interdiction and repression. | *resilient* | *desirable* |
-| 6. | The concrete effects of every decision have to be evaluated, compared to its intent and corrected in case of misalignment. | *empirical* | *critical* |
-| 7. | Support and credit contributors to ensure their longevity and recognition. | *sustainable* | *desirable * |
-| 8. | Be representative of human diversity. | *empathic* | *crucial* |
+| 1. | Always justify descisions relative to the platform's *aim* and *core principles*. | *empirical* and *generational* | *crucial* |
+| 2. | Be in a process of constant adaptation to our changing world while maintaining Dialogue's original *aim*. | *generational* | *crucial* |
+| 3. | Communicate publicly about funding, inner processes and decisions while hiding aspects that could endenger the platform's infrastructure and the people involved. | *transparent* and *resilient* | *crucial* |
+| 4. | Prevent state or corporate interests from infiltrating and/or taking over deciding bodies. | *independent* | *crucial* |
+| 5. | Keep the organization, its development processes and infrastructure working even under state level interdiction and repression. | *resilient* | *important* |
+| 6. | Evaluate, compare to intent and correct in case of misalignment every decision's concrete effects. | *empirical* | *crucial* |
+| 7. | Support and credit contributors to ensure their longevity and recognition. | *sustainable* | *desirable* |
+| 8. | Represent human diversity amoungst members of the descision bodies. | *empathic* | *important* |
 | 9. | Communicate enthusiastically over the work being done, the problems being solved and the systems being built toward. | *optimistic* and *attractive* | *desirable* |
-| 10. | Have processes to gather, answer and tackle user questions and remarks. | *empirical*, *accessible* and *sustainable* | *important* |
-| 11. | Be under the control of involved users but also defend the interests of peoples that aren't able to involve themselves in the same way. | *democratic* and *empathic* | *important* |
-| 12. | Changes to the core principles have to be difficult enough for the project not to stere off course and easy enough for them not to become obsolete. | *sustainable* | *crucial* |
+| 10. | Gather, consider, answer and tackle user questions and remarks. | *empirical*, *accessible* and *generational* | *important* |
+| 11. | Defend the interests of peoples with various impairments that are unable to involve themselves in the desciding bodies. | *empathic* | *important* |
 
 The project will happen in three phases : An initial phase where only the project's *initiators* are involved. A second phase where the project starts getting traction, more people get involved and the platform is built. And a third where the platform has to be maintained and improved. We consider different roles and responsibilities for each phase.
 
@@ -158,28 +157,28 @@ For now though, we are too early in the platform's development to clearly sketch
 
 ### Programming Language (Dialang)
 
-The programming language is one of the most basic building blocks of the platform and it has to be properly suited to its needs. Sadly no existing programming language is close enough to the following requirements so we have to create our own. We need fertile soil to grow a fruitful tree.
+The programming language is one of the most basic building blocks of the platform and it has to be properly suited to its needs. We need fertile soil to grow a fruitful tree. Sadly no existing programming language is close enough to the following requirements so we have to create our own. Also we want to avoid cumulating multiple programming languages and complexifying our stack because of the first requirement.
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
 | 1. | Minimize the amount of primitives, concepts and programming techniques needed to master the language. | *accessible* | *crucial* |
-| 2. | Minimize the potential for errors and bugs. | *sustainable*, *resilient* and *accessible* | *crucial* |
-| 3. | Make side effects very explicit and controllable to minimize the potential for hiding malicious code in packages and extensions. | *transparent*, *sustainable* and *resilient* | *crucial* |
-| 4. | Have first class meta-programming to support tooling development, code property verification and good practice enforcement. | *sustainable*, *secure*, *attractive* and *accessible* | *crucial* |
+| 2. | Minimize the potential for errors and bugs. | *generational* and *accessible* | *crucial* |
+| 3. | Make side effects very explicit and controllable to minimize the potential for hiding malicious code in packages and extensions. | *transparent*, *secure* and *resilient* | *crucial* |
+| 4. | Have first class meta-programming to support tooling development, code property verification and good practice enforcement. | *attractive* and *accessible* | *crucial* |
 | 5. | Enable spoken language code translation. | *accessible* | *crucial* |
-| 6. | Look familiar to seasoned developers. | *attractive* and *modular* | *desirable* |
-| 7. | Make white-space syntactically insignificant to make the language more resilient to copy-paste and LLM usage. | *accessible* | *desirable* |
+| 6. | Look familiar to seasoned developers. | *attractive* | *desirable* |
+| 7. | Make white-spaces syntactically insignificant to make the language more resilient to copy-paste and LLM usage. | *accessible* | *desirable* |
 
 ### Compiler/Interpreter
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
-| 1. | Print explicit and helpful compiler errors to guide programmers through their refactors. | *sustainable* and *accessible* | *crucial* |
-| 2. | Minimize compilation time to shorten the development feedback loop. | *attractive*, *accessible* and *sustainable* | *crucial* |
-| 3. | Handle an extendable list of compilation targets to make the code portable to many present and future supports. | *accessible* and *sustainable* | *important* |
+| 1. | Print explicit and helpful compiler errors to guide programmers through their refactors. | *generational* and *accessible* | *crucial* |
+| 2. | Minimize compilation time to shorten the development feedback loop. | *attractive*, *accessible* and *generational* | *crucial* |
+| 3. | Handle an extendable list of compilation targets to make the code portable to many present and future supports. | *accessible* and *generational* | *important* |
 | 4. | Handle translation tables, modular lexers, parsers and code generators to translate code back and forth from one spoken language to an other. | *accessible* | *important* |
 | 5. | Enable partial and complete code hot swapping even in production. | *modularity* | *crucial* |
-| 6. | Minimize bundle size, runtime speed and memory usage. | *sustainable*, *accessible* and *attractive* | *desirable* |
+| 6. | Minimize bundle size, runtime speed and memory usage. | *generational*, *accessible* and *attractive* | *desirable* |
 
 ### Peer to Peer Library
 
