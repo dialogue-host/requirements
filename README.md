@@ -19,7 +19,7 @@ Dialogue is thought out as a set of tools that are made and addapted to fulfill 
 - **Empathic**: Support peoples physical and mental well being, foster honesty, mutual respect and understanding, inclusiveness and constructive communication.
 - **Assertive**: Encourages people to stand up for their own needs and values, to confront differing opinions and ideas and promote moderation in the face of domination, harassment and instrumentalization.
 - **Accessible**: Ensure accessibility and ease of use to the largest amount of people possible by considering technical knowledge, economical status, cultural background, physical and mental disabilities, spoken languages, literacy and every other possibly hindering factor.
-- **Generational**: Ensure the platform's social and technical foundations remain viable and relevant across generational timescales.
+- **Durable**: Ensure the platform's social and technical foundations remain viable and relevant for generations.
 - **Attractive**: Bring local and online communities onboard by implementing win win mechanisms and focusing on their concrete needs.
 
 ### To Collectively Think
@@ -54,7 +54,7 @@ Spotting ideas that lack clarity or words that need explanation - especially for
 
 ## Requirements
 
-Here we build up a set of requirements. They are classified either as *crucial*, *important*, *desirable* or *two sided*. We also state which *core principle* each aims to fulfill. The reasoning justifying their prioritization and expected impacts has to be described if not self evident. The quality of a requirement comes from its clarity, concision, completeness, consistency, correctness, concreteness, specificity, measurability and actionability. We write the requirements using assertive wordings.
+Here we build up a set of requirements. They are classified either as *crucial*, *important*, *desirable* or *two sided*. We also state which *core principle* each aims to fulfill. The reasoning justifying their prioritization and expected impacts has to be described if not self evident. The quality of a requirement comes from its clarity, concision, completeness, consistency, correctness, concreteness, specificity, measurability and actionability. We write the requirements using assertive wordings. The requirements are numbered only for referencing sake and not as a hierarchization.
 
 We group requirements into different *systems*. We aim to minimize their size and interdependency. For each, we describe the *plan* we expect to follow to get the *system* to a complete state. The quality of a *plan* is evaluated based on how well it fulfills the requirements, which uncertainties it presents, how well the costs are balanced with sources of funding, which peoples and communities could be interested in contributing, how much work and time is required to attain completion.
 
@@ -99,8 +99,8 @@ The form that an organization takes shapes what it produces. As we do not want D
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
-| 1. | Always justify descisions relative to the platform's *aim* and *core principles*. | *empirical* and *generational* | *crucial* |
-| 2. | Be in a process of constant adaptation to our changing world while maintaining Dialogue's original *aim*. | *generational* | *crucial* |
+| 1. | Always justify descisions relative to the platform's *aim* and *core principles*. | *empirical* and *durable* | *crucial* |
+| 2. | Be in a process of constant adaptation to our changing world while maintaining Dialogue's original *aim*. | *durable* | *crucial* |
 | 3. | Communicate publicly about funding, inner processes and decisions while hiding aspects that could endenger the platform's infrastructure and the people involved. | *transparent* and *resilient* | *crucial* |
 | 4. | Prevent state or corporate interests from infiltrating and/or taking over deciding bodies. | *independent* | *crucial* |
 | 5. | Keep the organization, its development processes and infrastructure working even under state level interdiction and repression. | *resilient* | *important* |
@@ -108,7 +108,7 @@ The form that an organization takes shapes what it produces. As we do not want D
 | 7. | Support and credit contributors to ensure their longevity and recognition. | *sustainable* | *desirable* |
 | 8. | Represent human diversity amoungst members of the descision bodies. | *empathic* | *important* |
 | 9. | Communicate enthusiastically over the work being done, the problems being solved and the systems being built toward. | *optimistic* and *attractive* | *desirable* |
-| 10. | Gather, consider, answer and tackle user questions and remarks. | *empirical*, *accessible* and *generational* | *important* |
+| 10. | Gather, consider, answer and tackle user questions and remarks. | *empirical*, *accessible* and *durable* | *important* |
 | 11. | Defend the interests of peoples with various impairments that are unable to involve themselves in the desciding bodies. | *empathic* | *important* |
 
 The project will happen in three phases : An initial phase where only the project's *initiators* are involved. A second phase where the project starts getting traction, more people get involved and the platform is built. And a third where the platform has to be maintained and improved. We consider different roles and responsibilities for each phase.
@@ -155,30 +155,51 @@ Opportunism has to be strongly rejected to avoid the corporatisation happening i
 
 For now though, we are too early in the platform's development to clearly sketch out any clear *plan*. We can learn form [Open Collective](https://opencollective.com/) in terms of managing funds. Many political and journalistic organizations such as [Wikileaks](https://wikileaks.org/) also have a lot to teach us in terms of functioning in illegality.
 
+### User Interface Design
+
+| ref | requirement | fulfills | priority |
+| --: | ----------- | -------- | -------- |
+| 1. | Minimize the amount of primitives, concepts and techniques needed to master the interface. | *accessible* | *crucial* |
+| 2. | Minimize the potential for errors, bugs and unexpected behavior by designing helpful constraints that avoid error prone conditions. | *durable* and *accessible* | *crucial* |
+| 3. | Make the system status explicit and shorten the feedback loop to make it more predictable. | *attractive* | *crucial* |
+| 4. | Speak the user's language by following existing conventions and avoiding jargon. | *accessible* | *important* |
+| 5. | Organize and hierarchies information in from the most urgent and important to the least while avoiding duplicated and irrelevant information. | *attractive* and *accessible* | *important* |
+| 6. | Focus on the learning process and dynamically adapt the difficulty curve to the user. | *attractive* and *accessible* | *crucial* |
+| 7. | Be efficient for experts to use by providing tailored shortcuts. | *attractive* and *durable* | *important* |
+| 8. | Have a clear way to undo actions for users to be able to easily correct their mistakes and feel confident that they won't get stuck and frustrated. | *accessible* | *important* |
+| 9. | Maintain a shared lexicon of words, symbols and interactions for every interface to be consistent and predictable throughout the platform. | *accessible* and *durable* | *important* |
+| 10. | Minimize user's memory load by making the information required to use the interface immediately visible or easily retrievable through information bubbles. | *accessible* | *desirable* |
+| 11. | Express error messages in plain language (no error codes), precisely indicate the problem, and constructively suggest solution(s) that can be applied by a single click if possible. | *accessible* and *durable* | *crucial* |
+| 12. | Make the mental model structuring the system explicit and intuitive. | *attractive* and *accessible* | *crucial* |
+
+### Coding Conventions
+
+| ref | requirement | fulfills | priority |
+| --: | ----------- | -------- | -------- |
+| 1. | Organize data around a single source of truth. | *accessible* and *durable* | *crucial* |
+| 2. | Push for locality of behavior while avoiding code duplication. | *accessible* and *durable* | *important* |
+| 3. | Making the code self explanatory through its structure and naming convention. Each thing's name (value/type/etc.) has to convey why it exists, what it does and how it is used. | *accessible* and *durable* | *crucial* |
+| 4. | Document everything that cannot be made immediately obvious. | *accessible* and *durable* | *important* |
+| 5. | Follow the relevant [*user interface design* requirements](#user-interface-design-heuristics) whenever designing a package or extension. | *accessible*, *attractive* and *durable* | *important* |
+| 6. | Follow a standard code formatting. | *durable* | *desirable* |
+| 7. | Statically check everything that can be. | *durable* and *secure* | *desirable* |
+
 ### Programming Language (Dialang)
 
-The programming language is one of the most basic building blocks of the platform and it has to be properly suited to its needs. We need fertile soil to grow a fruitful tree. Sadly no existing programming language is close enough to the following requirements so we have to create our own. Also we want to avoid cumulating multiple programming languages and complexifying our stack because of the first requirement.
+The programming language is the lowest level user interface of Dialogue and one of its most basic building blocks. Sadly no existing programming language is close enough to the following requirements so we have to create our own. Also we want to avoid cumulating multiple programming languages and complexifying our stack because of the first requirement.
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
-| 1. | Minimize the amount of primitives, concepts and programming techniques needed to master the language. | *accessible* | *crucial* |
-| 2. | Minimize the potential for errors and bugs. | *generational* and *accessible* | *crucial* |
+| 1. | The compiler has to be thought out as an user interface and follow the [*user interface design* requirements](#user-interface-design-heuristics). | *accessible* | *crucial* |
+| 2. | Enforce [*coding conventions*](#coding-conventions) where possible, facilitate and encourage their use otherwise. | *accessible* and *durable* | *important* |
 | 3. | Make side effects very explicit and controllable to minimize the potential for hiding malicious code in packages and extensions. | *transparent*, *secure* and *resilient* | *crucial* |
-| 4. | Have first class meta-programming to support tooling development, code property verification and good practice enforcement. | *attractive* and *accessible* | *crucial* |
-| 5. | Enable spoken language code translation. | *accessible* | *crucial* |
-| 6. | Look familiar to seasoned developers. | *attractive* | *desirable* |
-| 7. | Make white-spaces syntactically insignificant to make the language more resilient to copy-paste and LLM usage. | *accessible* | *desirable* |
-
-### Compiler/Interpreter
-
-| ref | requirement | fulfills | priority |
-| --: | ----------- | -------- | -------- |
-| 1. | Print explicit and helpful compiler errors to guide programmers through their refactors. | *generational* and *accessible* | *crucial* |
-| 2. | Minimize compilation time to shorten the development feedback loop. | *attractive*, *accessible* and *generational* | *crucial* |
-| 3. | Handle an extendable list of compilation targets to make the code portable to many present and future supports. | *accessible* and *generational* | *important* |
-| 4. | Handle translation tables, modular lexers, parsers and code generators to translate code back and forth from one spoken language to an other. | *accessible* | *important* |
-| 5. | Enable partial and complete code hot swapping even in production. | *modularity* | *crucial* |
-| 6. | Minimize bundle size, runtime speed and memory usage. | *generational*, *accessible* and *attractive* | *desirable* |
+| 4. | Have first class meta-programming to support tooling development, static analysis and code generation. | *attractive* and *accessible* | *crucial* |
+| 5. | Look familiar to seasoned developers. | *attractive* | *desirable* |
+| 8. | Make white-spaces syntactically insignificant to make the language more resilient to copy-paste and LLM usage. | *accessible* | *desirable* |
+| 9. | Handle an extendable list of compilation targets to make the code portable to many present and future supports. | *accessible* and *durable* | *important* |
+| 10. | Handle translation tables, modular lexers, parsers and code generators to translate code back and forth from one spoken language to an other. | *accessible* | *important* |
+| 11. | Enable partial and complete code hot swapping even in production. | *modularity* | *crucial* |
+| 12. | Minimize bundle size, runtime speed and memory usage. | *durable*, *accessible* and *attractive* | *desirable* |
 
 ### Peer to Peer Library
 
@@ -546,7 +567,7 @@ To prevent opportunism amongst the peoples involved in the org, salaries have to
 
 In the rapidly evolving landscape of technology and social platforms, many projects face challenges in maintaining their relevance and functionality over time. Often, platforms are built with short-term growth goals in mind, leading to technical debt and a lack of consideration for the social and ecological impacts. To ensure long-term viability and continued alignment with user needs, sustainability must be a core consideration from the outset.
 
-Sustainability involves creating a platform that remains viable and relevant across generational timescales. This means choosing stable technologies, building maintainable systems, and establishing governance structures that can evolve with the community's needs. It means that every technical and architectural decision have to be taken with a long term perspective.
+Sustainability involves creating a platform that remains viable and relevant across durable timescales. This means choosing stable technologies, building maintainable systems, and establishing governance structures that can evolve with the community's needs. It means that every technical and architectural decision have to be taken with a long term perspective.
 
 It is not about making rigid choices or avoiding new technologies and ideas. It is about the flexibility and adaptability to changing circumstances. Bold technical choices can be made if they are shown to closely match the *core principles*.
 
