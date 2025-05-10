@@ -6,21 +6,21 @@
 
 ## Core Principles
 
-Dialogue is thought out as a set of tools that are made and addapted to fulfill its *aim* described above. The following *core principles* clarify the manner in which it is done. They are fairly general but each highlights different aspects of the platform. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
+*Core principles* clarify Dialogue's *aim* described above. They are fairly general but each highlights different aspects of the platform. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
 
 ### Tools
 
 - **Transparent**: Actively expose and explain all platform mechanisms, algorithmic systems, and community processes to enable informed user participation and control.
 - **Modular**: Support community-driven development by building every interface and algorithm as swappable components that can be addapted by users to their specific needs.
-- **Empirical**: Rigorously justify, study and stress test every feature to ensure its functioning truly matches its intent.
+- **Empirical**: Rigorously justify, study and stress test every feature to ensure its functioning truly align with the platform's *aim*.
 
 ### For All Humans
 
 - **Empathic**: Support peoples physical and mental well being, foster honesty, mutual respect and understanding, inclusiveness and constructive communication.
 - **Assertive**: Encourages people to stand up for their own needs and values, to confront differing opinions and ideas and promote moderation in the face of domination, harassment and instrumentalization.
 - **Accessible**: Ensure accessibility and ease of use to the largest amount of people possible by considering technical knowledge, economical status, cultural background, physical and mental disabilities, spoken languages, literacy and every other possibly hindering factor.
-- **Durable**: Ensure the platform's social and technical foundations remain viable and relevant for generations.
 - **Attractive**: Bring local and online communities onboard by implementing win win mechanisms and focusing on their concrete needs.
+- **Durable**: Ensure the platform's social and technical foundations remain viable and relevant for generations.
 
 ### To Collectively Think
 
@@ -37,7 +37,7 @@ Dialogue is thought out as a set of tools that are made and addapted to fulfill 
 ### To Collectively Act
 
 - **Optimistic**: Builds confidence in our collective ability to overcome current challenges and shape better futures through human ingenuity and collective action.
-- **Sustainable**: Implement various means for platform developers, content creators and other contributors to get revenue and sustain threir work on the long term.
+- **Sustainable**: Implement various means for platform developers, content creators and other contributors to get revenue and sustain their work on the long term.
 
 ### Under Any Form of Repression
 
@@ -163,7 +163,7 @@ For now though, we are too early in the platform's development to clearly sketch
 | 2. | Minimize the potential for errors, bugs and unexpected behavior by designing helpful constraints that avoid error prone conditions. | *durable* and *accessible* | *crucial* |
 | 3. | Make the system status explicit and shorten the feedback loop to make it more predictable. | *attractive* | *crucial* |
 | 4. | Speak the user's language by following existing conventions and avoiding jargon. | *accessible* | *important* |
-| 5. | Organize and hierarchies information in from the most urgent and important to the least while avoiding duplicated and irrelevant information. | *attractive* and *accessible* | *important* |
+| 5. | Organize and hierarchies information from the most urgent and important to the least while avoiding duplicated and irrelevant information. | *attractive* and *accessible* | *important* |
 | 6. | Focus on the learning process and dynamically adapt the difficulty curve to the user. | *attractive* and *accessible* | *crucial* |
 | 7. | Be efficient for experts to use by providing tailored shortcuts. | *attractive* and *durable* | *important* |
 | 8. | Have a clear way to undo actions for users to be able to easily correct their mistakes and feel confident that they won't get stuck and frustrated. | *accessible* | *important* |
@@ -171,6 +171,10 @@ For now though, we are too early in the platform's development to clearly sketch
 | 10. | Minimize user's memory load by making the information required to use the interface immediately visible or easily retrievable through information bubbles. | *accessible* | *desirable* |
 | 11. | Express error messages in plain language (no error codes), precisely indicate the problem, and constructively suggest solution(s) that can be applied by a single click if possible. | *accessible* and *durable* | *crucial* |
 | 12. | Make the mental model structuring the system explicit and intuitive. | *attractive* and *accessible* | *crucial* |
+| 13. | Handle phone, computer and tablet's screen formats as well as their corresponding touch screen, touchpad, mouse and keyboard inputs. | *accessible* | *important* |
+| 14. | Follow [web content accessibility guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/). | *accessible* | *important* |
+| 15. | Make extensive user research to better understand their needs, concerns and blocking points. | *accessible*, *empathic* and *empirical* | *crucial* |
+| 16. | Let users seek information instead of imposing information to them or needlessly attracting their attention. | *empathic* and *empowering* | *desirable* |
 
 ### Coding Conventions
 
@@ -178,7 +182,7 @@ For now though, we are too early in the platform's development to clearly sketch
 | --: | ----------- | -------- | -------- |
 | 1. | Organize data around a single source of truth. | *accessible* and *durable* | *crucial* |
 | 2. | Push for locality of behavior while avoiding code duplication. | *accessible* and *durable* | *important* |
-| 3. | Making the code self explanatory through its structure and naming convention. Each thing's name (value/type/etc.) has to convey why it exists, what it does and how it is used. | *accessible* and *durable* | *crucial* |
+| 3. | Make code self explanatory through its structure and naming convention. Each symbol's name has to convey why it exists, what it does and how it is used. | *accessible* and *durable* | *crucial* |
 | 4. | Document everything that cannot be made immediately obvious. | *accessible* and *durable* | *important* |
 | 5. | Follow the relevant [*user interface design* requirements](#user-interface-design-heuristics) whenever designing a package or extension. | *accessible*, *attractive* and *durable* | *important* |
 | 6. | Follow a standard code formatting. | *durable* | *desirable* |
@@ -190,7 +194,7 @@ The programming language is the lowest level user interface of Dialogue and one 
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
-| 1. | The compiler has to be thought out as an user interface and follow the [*user interface design* requirements](#user-interface-design-heuristics). | *accessible* | *crucial* |
+| 1. | The compiler has to be thought out as an user interface and follow the relevant [*user interface design* requirements](#user-interface-design-heuristics). | *accessible* | *crucial* |
 | 2. | Enforce [*coding conventions*](#coding-conventions) where possible, facilitate and encourage their use otherwise. | *accessible* and *durable* | *important* |
 | 3. | Make side effects very explicit and controllable to minimize the potential for hiding malicious code in packages and extensions. | *transparent*, *secure* and *resilient* | *crucial* |
 | 4. | Have first class meta-programming to support tooling development, static analysis and code generation. | *attractive* and *accessible* | *crucial* |
