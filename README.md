@@ -1,30 +1,39 @@
-# 🌸 Dialogue - Social Media
+# 🌸 Dialogue
 
-**Tools for all humans to collectively think, decide and act under any form of repression.**
+**A decentralized social platform built as a toolset for all humans to collectively think, decide and act even in adverse conditions.**
 
 ---
 
+Dialogue is work in progress and we need your help to build it. There is a lot of work to be done and we need a large pool of engineers, programers, designers, scientists, journalists, artists, jurists and more. This document is a first attempt at clarifying the platform's requirements in order to structure, coordinate and orient everyone's work toward a clear and unified goal.
+
 ## Core Principles
 
-*Core principles* clarify Dialogue's *aim* described above. They are fairly general but each highlights different aspects of the platform. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
+These *core principles* clarify Dialogue's *aim* described above. They are fairly general but each highlights a different facet of the platform. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
 
-### Tools
+### Distributed
 
-- **Transparent**: Actively expose and explain all platform mechanisms, algorithmic systems, and community processes to enable informed user participation and control.
-- **Modular**: Support community-driven development by building every interface and algorithm as swappable components that can be addapted by users to their specific needs.
+- **Private**: Guarantee personal data sovereignty and communication confidentiality.
+- **Transparent**: Actively expose and explain the platform's code, protocols, algoriths and community processes to enable informed user participation and control.
+- **Empowering**: Entrust people with control over their digital environment and enable them to decide on contents they want to be exposed to or to moderate.
+
+### Social Platform
+
+- **Empathic**: Support peoples physical and mental well being, foster honesty, mutual respect and understanding, inclusiveness and constructive communication.
+- **Assertive**: Encourages people to stand up for their own needs and values, to confront differing opinions and ideas and promote moderation in the face of domination, harassment and instrumentalization.
+
+### Built as a Toolset
+
+- **Malleable**: Support community-driven development by building every interface and algorithm as swappable components that can be addapted by users to their specific needs.
 - **Empirical**: Rigorously justify, study and stress test every feature to ensure its functioning truly align with the platform's *aim*.
 
 ### For All Humans
 
-- **Empathic**: Support peoples physical and mental well being, foster honesty, mutual respect and understanding, inclusiveness and constructive communication.
-- **Assertive**: Encourages people to stand up for their own needs and values, to confront differing opinions and ideas and promote moderation in the face of domination, harassment and instrumentalization.
 - **Accessible**: Ensure accessibility and ease of use to the largest amount of people possible by considering technical knowledge, economical status, cultural background, physical and mental disabilities, spoken languages, literacy and every other possibly hindering factor.
 - **Attractive**: Bring local and online communities onboard by implementing win win mechanisms and focusing on their concrete needs.
 - **Durable**: Ensure the platform's social and technical foundations remain viable and relevant for generations.
 
 ### To Collectively Think
 
-- **Empowering**: Entrust people with control over their digital environment and enable them to decide on contents they want to be exposed to or to moderate.
 - **Collaborative**: Foster collaboration, cooperation and collective creative work among people, groups and communities.
 - **Expressive**: Provide spaces for creative expression, public discourse and knowledge sharing.
 - **Informative**: Create community-driven systems for news gathering, investigation and reporting able to highlight biases and diverging opinions.
@@ -39,12 +48,11 @@
 - **Optimistic**: Builds confidence in our collective ability to overcome current challenges and shape better futures through human ingenuity and collective action.
 - **Sustainable**: Implement various means for platform developers, content creators and other contributors to get revenue and sustain their work on the long term.
 
-### Under Any Form of Repression
+### Even in Adverse Conditions
 
-- **Private**: Guarantee personal data sovereignty and communication confidentiality.
-- **Resilient**: Maintain platform availability and usability even in places where it has been outlawed.
+- **Resilient**: Maintain platform availability and usability even on hostile networks.
 - **Safe**: Ensure users can communicate without fear of identification or retribution even in repressive environments.
-- **Independent**: Organize platform architecture and governance in a way that can resist and survive possible coercion from states or multinational corporations.
+- **Independent**: Organize platform architecture and governance in a way that can resist control and coercion from states or multinational corporations.
 
 ## Contribute
 
@@ -281,7 +289,7 @@ A programming language in and of itself is a user interface that serves as a mod
   - Tiny bundle size
   - Be [local first](https://www.inkandswitch.com/local-first/)
   - Fast compilation
-- Sandboxed (*modular*)
+- Sandboxed (*malleable*)
   - Functions have no side effects
   - A single datatype represents all possible side effects
     - It can be extended or shrunk based on the access we want to give to the sub program
@@ -549,7 +557,7 @@ Being safe means ensuring users can communicate without fear of identification o
 
 Strong anonymity by default protect user identities, content warnings and filtering tools help users avoid unwanted exposure, reporting mechanisms enable communities to protect themselves against harassment and safety documentation helps users understand risks and best practices. The platform's security has to be heavily tested and be impervious against spoofing attacks. Ideally the app should also be [polymorphic](https://en.wikipedia.org/wiki/Polymorphic_code) to avoid detection by spyware and it should be able to disguise its communications in order to be unrecognizable by anyone tapping the network.
 
-### Modular
+### Malleable
 
 No platform is neutral - its design inherently shapes what gets expressed and how people interact. From recommendation algorithms that determine what content gets seen, to interface choices that guide behavior, to moderation systems that define acceptable speech - every technical choice embodies specific values and priorities. While we strive to align these choices with our *core principles*, we recognize that no single implementation can serve all communities' needs or adapt to every contexts.
 
@@ -599,7 +607,7 @@ Each principle corresponds to a specific idea and are thought not to overlap wit
 
 ### Complexity vs Accessibility
 
-Complexity grows quickly when designing systems. Giving complete control over the interface to the user (*empowering* and *modular*) might make those really complex to use and understand. The processes able to parse and structure information (*informative*) might also become quite complex.
+Complexity grows quickly when designing systems. Giving complete control over the interface to the user (*empowering* and *malleable*) might make those really complex to use and understand. The processes able to parse and structure information (*informative*) might also become quite complex.
 
 -- wip
 
@@ -769,7 +777,6 @@ The shopping list is long and we will need a lot of resources to get there.
 - Detect aggressive or hurtful writing in a post or comment and prompt the user to think about the people that message might hurt before posting it online.
 - Users can setup custom content flagging systems and share their flags with one an other.
 - Users can code their own recommender systems.
-
 - Different versions of the interface can be provided as extensions.
 - Translation algorithms can be provided as extensions and hosted on the user's devices.
 
