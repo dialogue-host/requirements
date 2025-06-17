@@ -66,40 +66,40 @@ Here we build up a set of requirements. They are classified either as *crucial*,
 
 We group requirements into different *systems*. We aim to minimize their size and interdependency. For each, we describe the *plan* we expect to follow to get the *system* to a complete state. The quality of a *plan* is evaluated based on how well it fulfills the requirements, which uncertainties it presents, how well the costs are balanced with sources of funding, which peoples and communities could be interested in contributing, how much work and time is required to attain completion.
 
-### Name
+### Name and Visual Identity
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
-| 1. | Have a meaning that mirrors the platform's intent and purposes. | *transparent* and *attractive* | *crucial* |
+| 1. | Have a meaning that mirrors the platform's intent and purposes in most cultural contexts. | *transparent* and *attractive* | *crucial* |
 | 2. | Be readable and pronounceable in a large amount of languages. | *accessible* | *important* |
-| 3. | Be memorable and findable. | *attractive* | *important* |
+| 3. | Be interesting, memorable and findable. | *attractive* | *important* |
 
-*Dialogue* is a great name that is short, that is pronounceable in many languages and that really highlights much of the philosophy behind the project.
+*Dialogue* is a short name, that is pronounceable in many languages and that really highlights much of the philosophy behind the project :
 
 > A dialogue consists of a cross-examination of different speeches, all of which commit their author. It is not about imposing a cognitive point of view, a perspective or reference. Each word transmitted in communication seeks to be decoded and received by the recipient, then to signify something that has meaning in their own existence. Dialogue calls for the actors of communication to be transformed in their being, in complete freedom. Active listening, sincere humility and mutual respect are therefore necessary. A successful dialogue produces a diagnosis integrating all the arguments of the participants and a conclusion in which they all agree. - *paraphrasing french wikipedia*
+
+As a logo, the cherry flower 🌸 symbolizes hope, renewal and peace and its soft pink color brings care, kindness, playfulness and joy. The cherry blossom is a very poetic symbol as it embraces the perpetual transformation of the world and announces "le temps des cerises". But it is not a spotless symbol as it has been used to motivate japanese militarism, nationalism and kamikaze action. But - as of our current understanding - this association doesn't seem to overwelm its peaceful and kind facets in the japanese imaginary.
+
+With cherry flower comes pink as the primary color of Dialogue's aestetic. Although pink can be stereotyped as feminine and romantic, these stereotypes have been challenged by various gender equality movements. Nevertheless to soften these prejudices we can use lighter pastel tones or darker redich ones that are less connoted than brighter ones.
+
+The general aestetic will have to look handcrafty to make it aproachable, to highlight the software malleability and to encourage users to express themselves through it. Many social medias look spotless, smooth, imobile and cold. Dialogue is made for and by humans which are dynamic living creatures that learn while doing. The messy and imperfect nature of this learning process should be praised and promoted by the platform's design and aestetic.
+
+// TODO : detail who has to get involved, when and how
 
 We will be using the `dialogue.host` domain at first and buy ones such as `dialogue.net` and `dialogue.media` as the project gains traction and funding.
 
 | ref | impact | problem/solution |
 | --: | ------ | ---------------- |
-| req1 | +++ | The notion of dialogue has a clear social aspect, it reflects really well the idea that people are here to listen to one an other (*empathic*), exchange thoughts and ideas (*expressive*), find contradictions in their differing view points (*informative* and *empirical*) and collaborate toward possible solutions (*optimistic* and *democratic*). |
-| req2 | ++ | This name also is easy to pronounce and has the same meaning in many languages. |
-| req3 | + | It isn't widely used online and a quick search mostly lists dictionaries so it might also be a good name for SEO. Also the ideal domains are unused as of now. |
+| 1. | +++ | The notion of dialogue has a clear social aspect, it reflects really well the idea that people are here to listen to one an other (*empathic*), exchange thoughts and ideas (*expressive*), find contradictions in their differing view points (*informative* and *empirical*) and collaborate toward possible solutions (*optimistic* and *democratic*). |
+| 1. | +++ | The cherry flower is a beautiful symbol that matches the *optimistic*, *empathic*, *assertive* and *resilient* principles. |
+| 1. | +++ | The handcrafty aestetic is aproachable (*accessible*) and encourage users to express themselves (*expressive* and *assertive*) and to adapt the platform to their needs (*malleable*). |
+| 2. | ++ | Dialogue is easy to pronounce and has the same meaning in many languages. |
+| 2. | ++- | The cherry flower has an important cultural baggage in many cultures and is widely understood as a symbol of care, hope and renewal. |
+| 3. | + | Dialogue isn't widely used online and a quick search mostly lists dictionaries so it might also be a good name for SEO. Also the ideal domains are unused as of now. |
+| 3. | ++ | The cherry flower is a very poetic symbol that is quite memorable. |
+| 3. | ++ | The handcrafty aestetic contrasts with the usual minimalist look of social media and might make it more interesting to look at. |
 | cost | - | The `dialogue.net`(registered but unused) and `dialogue.media` (6600$ on [porkbun](porkbun.com)) domains are quite expensive although `dialogue.host` is already a fairly good domain. |
-
-### Visual Identity
-
-The visual identity has essentially the exact same requirements than the platform's name.
-
-The cherry flower 🌸 symbolizes hope, renewal and peace and its soft pink color brings care, kindness, playfulness and joy. The cherry blossom is a very poetic symbol as it embraces the perpetual transformation of the world and announces "le temps des cerises". Although pink can be stereotyped as feminine and romantic, these stereotypes have been challenged by various gender equality movements. Nevertheless to soften these prejudices we can use lighter pastel tones that are less connoted than brighter ones.
-
-But it is not a spotless symbol as it has been used to motivate japanese militarism, nationalism and kamikaze action. But this association doesn't seem to be too deeply ingrained in the japanese imaginary and doesn't seem to come up anywhere else (as of our current understanding).
-
-| ref | impact | problem/solution |
-| --: | ------ | ---------------- |
-| req1 | +++ | It is a beautiful symbol that matches the **optimistic**, **empathic**, **assertive** and **resilient** principles. |
-| req2 | ++- | It has an important cultural baggage in many cultures and is widely understood as a symbol of care, hope and renewal. |
-| req3 | +++ | The cherry flower is a very poetic symbol that is quite memorable. |
+| clarity | - | The handcrafty aestetic might create clutter that can be distracting for some users. It will have to be well thought out to avoid this pitfall. |
 
 ### Governance
 
@@ -244,94 +244,6 @@ Code is a great interface for describing an application's logic but graphical to
 | 2. | Focus on readability at every size. | *accessible* and *sustainable* | *crucial* |
 | 3. | Be monospace for use in programming. | required for [Dialang](#programming-language-dialang) | *crucial* |
 | 4. | Has a consistent style that matches [dialogue's visual identity](#visual-identity). | *attractive* | *desirable* |
-
-### Programming Toolset (legacy)
-
-A programming language in and of itself is a user interface that serves as a model for thinking and describing processes. We often think of programming languages as things in and of themselves but their compilers, frameworks, IDEs, and tools in general each take a huge role in their ergonomics. As software development is a social process, this thinking can be extended to the blogs, forums and articles that are also part of the programming toolset.
-
-| ref | requirement | fulfills | priority |
-| --: | ----------- | -------- | -------- |
-
-- Easy to learn and master (*accessible*)
-  - Great beginner resources aimed at non technical peoples
-  - Minimize the amount of core concepts
-  - Easy to read and to express (avoids [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar))
-  - Single threaded code
-  - Consistent interfaces across devices
-  - Great programming ergonomics
-- Easy to review and maintain (*sustainable*)
-  - Enforces good practice through language design and compiler errors
-  - Human readable and helpful compilation error messages
-  - Compiler enforce good documentation practices
-  - When it compiles it works except for mathematically untraceable issues
-  - No implicit behavior
-  - Strongly typed
-  - Enables metaprograming for analysis and automated review
-  - Compiler and tooling written in its own language
-  - Has clear and uniform naming conventions
-  - Standard formatting enforced by the compiler
-  - Standard formatting avoids indentation pyramids
-- Joins developer and designer's work
-  - The code is the single source of truth
-  - GUI enables designers to edit view code
-    - Single source of truth for the design system, layout and animations
-    - Intuitive for designers
-    - The design should automatically generate code and have a simple interface for developers to integrate with
-    - All of the design has to be under designer control with the least amount of coding knowledge needed
-    - Ensure each interface works on any screen format
-    - Enforce good accessibility practices
-- Built for distributed architecture (*distributed*)
-  - [ORDT](http://archagon.net/blog/2018/03/24/data-laced-with-history/) as first class citizen
-  - Enable distributed computations for heavy algorithms
-  - Integrates peer to peer protocols
-- Run and compile on most devices with low network availability (*accessible*)
-  - Parallelize program at compile time
-  - Tiny bundle size
-  - Be [local first](https://www.inkandswitch.com/local-first/)
-  - Fast compilation
-- Sandboxed (*malleable*)
-  - Functions have no side effects
-  - A single datatype represents all possible side effects
-    - It can be extended or shrunk based on the access we want to give to the sub program
-- Can be translated in various languages (*accessible*)
-- Always a single source of truth (*sustainable*)
-  - The code and its documentation is the reference for the communication protocols
-
-#### Programming Language
-
-##### Elm
-
-[Elm](https://elm-lang.org/) has the best compiler messages and maintainability around. It has a very young ecosystem which comes with drawbacks as it lacks many libraries and tools that can be found in main stream languages but the language is stable and complete for its intended use case (web app frontend).
-
-##### Gren
-
-[Gren](https://gren-lang.org/) started as a fork of Elm. It adds quite a few quality of life improvements and is made for full stack apps building on a Node backend. Contrary to Elm and Roc they are building their primary compiler in Gren itself which unifies the tooling in a single language.
-
-##### Roc
-
-[Roc](https://www.roc-lang.org/) is a language inspired by Elm that adds a very useful abstraction of platforms and wants packages to have IDE integration. Its syntax tends to be more familiar to people coming from mainstream programming languages. It still is in full development and will take some time before being stable enough for use in production.
-
-##### Bend
-
-[Bend](https://higherorderco.com/) is great at compile time parallelization. There is discussion for [HVM](https://github.com/HigherOrderCO/HVM) (which Bend is built onto) to become a compilation target for Elm.
-
-#### P2P Networking
-
-Servers are a single point of failure that can easily be shut down by the cloud companies or the states. Organic peer to peer communication on the other hand is much harder to affect as every device of the network must get disconnected from the rest in order to shot down the service.
-
--- wip : requirements are needed
-
-##### LibP2P
-
-[LibP2P](https://libp2p.io/) is an open source networking library that has a very flexible transport layer with protocol multiplexing. According to their website it is the simplest solution for global scale peer-to-peer networking and includes support for pub-sub message passing, distributed hash tables, NAT hole punching and browser-to-browser direct communication. It is still under active development but is used in production in multiple large scale contexts.
-
-##### Pear
-
-[Pear](https://docs.pears.com/guides/getting-started) is a framework built on Electron made for building and distributing p2p apps.
-
-##### Socket
-
-[Socket](https://socketsupply.co/guides/) is a light framework for building native apps on any platform that integrates a [delay-tolerant networking](https://en.wikipedia.org/wiki/Delay-tolerant_networking#Security_issues) library for p2p pub-sub communication.
 
 ### Architecture
 
@@ -820,3 +732,92 @@ A *person* can describe its beliefs which can serve to find *content* that quest
 ##### Interactions
 
 Claps (similar to medium's applause), Favorite (select the 6 best contents of the year), Pin (pin content on your devices to duplicate it and keep it online), Opinion (agree-disagree slider), Flag (flag different characteristics of the content like violent, hateful, poorly researched, etc.), Share (share the link).
+
+
+### Programming Toolset
+
+A programming language in and of itself is a user interface that serves as a model for thinking and describing processes. We often think of programming languages as things in and of themselves but their compilers, frameworks, IDEs, and tools in general each take a huge role in their ergonomics. As software development is a social process, this thinking can be extended to the blogs, forums and articles that are also part of the programming toolset.
+
+| ref | requirement | fulfills | priority |
+| --: | ----------- | -------- | -------- |
+
+- Easy to learn and master (*accessible*)
+  - Great beginner resources aimed at non technical peoples
+  - Minimize the amount of core concepts
+  - Easy to read and to express (avoids [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar))
+  - Single threaded code
+  - Consistent interfaces across devices
+  - Great programming ergonomics
+- Easy to review and maintain (*sustainable*)
+  - Enforces good practice through language design and compiler errors
+  - Human readable and helpful compilation error messages
+  - Compiler enforce good documentation practices
+  - When it compiles it works except for mathematically untraceable issues
+  - No implicit behavior
+  - Strongly typed
+  - Enables metaprograming for analysis and automated review
+  - Compiler and tooling written in its own language
+  - Has clear and uniform naming conventions
+  - Standard formatting enforced by the compiler
+  - Standard formatting avoids indentation pyramids
+- Joins developer and designer's work
+  - The code is the single source of truth
+  - GUI enables designers to edit view code
+    - Single source of truth for the design system, layout and animations
+    - Intuitive for designers
+    - The design should automatically generate code and have a simple interface for developers to integrate with
+    - All of the design has to be under designer control with the least amount of coding knowledge needed
+    - Ensure each interface works on any screen format
+    - Enforce good accessibility practices
+- Built for distributed architecture (*distributed*)
+  - [ORDT](http://archagon.net/blog/2018/03/24/data-laced-with-history/) as first class citizen
+  - Enable distributed computations for heavy algorithms
+  - Integrates peer to peer protocols
+- Run and compile on most devices with low network availability (*accessible*)
+  - Parallelize program at compile time
+  - Tiny bundle size
+  - Be [local first](https://www.inkandswitch.com/local-first/)
+  - Fast compilation
+- Sandboxed (*malleable*)
+  - Functions have no side effects
+  - A single datatype represents all possible side effects
+    - It can be extended or shrunk based on the access we want to give to the sub program
+- Can be translated in various languages (*accessible*)
+- Always a single source of truth (*sustainable*)
+  - The code and its documentation is the reference for the communication protocols
+
+#### Programming Language
+
+##### Elm
+
+[Elm](https://elm-lang.org/) has the best compiler messages and maintainability around. It has a very young ecosystem which comes with drawbacks as it lacks many libraries and tools that can be found in main stream languages but the language is stable and complete for its intended use case (web app frontend).
+
+##### Gren
+
+[Gren](https://gren-lang.org/) started as a fork of Elm. It adds quite a few quality of life improvements and is made for full stack apps building on a Node backend. Contrary to Elm and Roc they are building their primary compiler in Gren itself which unifies the tooling in a single language.
+
+##### Roc
+
+[Roc](https://www.roc-lang.org/) is a language inspired by Elm that adds a very useful abstraction of platforms and wants packages to have IDE integration. Its syntax tends to be more familiar to people coming from mainstream programming languages. It still is in full development and will take some time before being stable enough for use in production.
+
+##### Bend
+
+[Bend](https://higherorderco.com/) is great at compile time parallelization. There is discussion for [HVM](https://github.com/HigherOrderCO/HVM) (which Bend is built onto) to become a compilation target for Elm.
+
+#### P2P Networking
+
+Servers are a single point of failure that can easily be shut down by the cloud companies or the states. Organic peer to peer communication on the other hand is much harder to affect as every device of the network must get disconnected from the rest in order to shot down the service.
+
+-- wip : requirements are needed
+
+##### LibP2P
+
+[LibP2P](https://libp2p.io/) is an open source networking library that has a very flexible transport layer with protocol multiplexing. According to their website it is the simplest solution for global scale peer-to-peer networking and includes support for pub-sub message passing, distributed hash tables, NAT hole punching and browser-to-browser direct communication. It is still under active development but is used in production in multiple large scale contexts.
+
+##### Pear
+
+[Pear](https://docs.pears.com/guides/getting-started) is a framework built on Electron made for building and distributing p2p apps.
+
+##### Socket
+
+[Socket](https://socketsupply.co/guides/) is a light framework for building native apps on any platform that integrates a [delay-tolerant networking](https://en.wikipedia.org/wiki/Delay-tolerant_networking#Security_issues) library for p2p pub-sub communication.
