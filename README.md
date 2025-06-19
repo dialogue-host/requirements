@@ -10,7 +10,7 @@ Dialogue is work in progress and we need your help to build it. There is a lot o
 
 These *core principles* clarify Dialogue's *aim* described above. They are fairly general but each highlights a different facet of the platform. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
 
-### Distributed
+### Decentralized
 
 - **Private**: Guarantee personal data sovereignty and communication confidentiality.
 - **Transparent**: Actively expose and explain the platform's code, protocols, algoriths and community processes to enable informed user participation and control.
@@ -19,12 +19,12 @@ These *core principles* clarify Dialogue's *aim* described above. They are fairl
 ### Social Platform
 
 - **Empathic**: Support peoples physical and mental well being, foster honesty, mutual respect and understanding, inclusiveness and constructive communication.
-- **Assertive**: Encourages people to stand up for their own needs and values, to confront differing opinions and ideas and promote moderation in the face of domination, harassment and instrumentalization.
+- **Expressive**: Provide spaces for creative expression, public discourse and knowledge sharing.
 
 ### Built as a Toolset
 
 - **Malleable**: Support community-driven development by building every interface and algorithm as swappable components that can be addapted by users to their specific needs.
-- **Empirical**: Rigorously justify, study and stress test every feature to ensure its functioning truly align with the platform's *aim*.
+- **Empirical**: Rigorously justify, study and stress test every feature to ensure its functioning truly align with the platform's *aim* and *principles*.
 
 ### For All Humans
 
@@ -35,8 +35,8 @@ These *core principles* clarify Dialogue's *aim* described above. They are fairl
 ### To Collectively Think
 
 - **Collaborative**: Foster collaboration, cooperation and collective creative work among people, groups and communities.
-- **Expressive**: Provide spaces for creative expression, public discourse and knowledge sharing.
 - **Informative**: Create community-driven systems for news gathering, investigation and reporting able to highlight biases and diverging opinions.
+- **Assertive**: Encourages people to stand up for their own needs and values, to confront differing opinions and ideas and promote moderation in the face of domination, harassment and instrumentalization.
 
 ### To Collectively Decide
 
@@ -62,9 +62,9 @@ Spotting ideas that lack clarity or words that need explanation - especially for
 
 ## Requirements
 
-Here we build up a set of requirements. They are classified either as *crucial*, *important*, *desirable* or *two sided*. We also state which *core principle* each aims to fulfill. The reasoning justifying their prioritization and expected impacts has to be described if not self evident. The quality of a requirement comes from its clarity, concision, completeness, consistency, correctness, concreteness, specificity, measurability and actionability. We write the requirements using assertive wordings. The requirements are numbered only for referencing sake and not as a hierarchization.
+Here we build up a set of requirements. They are classified either as *crucial*, *important* or *desirable*. We also state which *core principle* each aims to fulfill. The reasoning justifying their prioritization and expected impacts has to be described if not self evident. The quality of a requirement comes from its clarity, concision, completeness, consistency (= doesn't conflict with other requirements), correctness (= corresponds to the platform's *aims* and *principles*), concreteness, specificity, measurability and actionability. We write the requirements using assertive wordings. They are numbered only for referencing sake and not for hierarchization.
 
-We group requirements into different *systems*. We aim to minimize their size and interdependency. For each, we describe the *plan* we expect to follow to get the *system* to a complete state. The quality of a *plan* is evaluated based on how well it fulfills the requirements, which uncertainties it presents, how well the costs are balanced with sources of funding, which peoples and communities could be interested in contributing, how much work and time is required to attain completion.
+We group requirements into different *systems*. We aim to minimize their size and interdependency. For each, we describe the *plan* we expect to follow to get the *system* to a complete state. The quality of a *plan* is evaluated based on how well it fulfills the requirements, which uncertainties it presents, how costs are balanced with sources of funding, how much work and time is required to attain completion, which peoples and communities are needed and how we might get them interested in contributing.
 
 ### Name and Visual Identity
 
@@ -109,11 +109,11 @@ The form that an organization takes shapes what it produces. As we do not want D
 | --: | ----------- | -------- | -------- |
 | 1. | Always justify descisions relative to the platform's *aim* and *core principles*. | *empirical* and *durable* | *crucial* |
 | 2. | Be in a process of constant adaptation to our changing world while maintaining Dialogue's original *aim*. | *durable* | *crucial* |
-| 3. | Communicate publicly about funding, inner processes and decisions while hiding aspects that could endenger the platform's infrastructure and the people involved. | *transparent* and *resilient* | *crucial* |
+| 3. | Communicate publicly about funding, inner processes and decisions while hiding aspects that could endenger the platform's infrastructure or the people involved. | *transparent* and *resilient* | *crucial* |
 | 4. | Prevent state or corporate interests from infiltrating and/or taking over deciding bodies. | *independent* | *crucial* |
 | 5. | Keep the organization, its development processes and infrastructure working even under state level interdiction and repression. | *resilient* | *important* |
 | 6. | Evaluate, compare to intent and correct in case of misalignment every decision's concrete effects. | *empirical* | *crucial* |
-| 7. | Support and credit contributors to ensure their longevity and recognition. | *sustainable* | *desirable* |
+| 7. | Support economically and credit contributors to ensure their longevity and recognition. | *sustainable* | *desirable* |
 | 8. | Represent human diversity amoungst members of the descision bodies. | *empathic* | *important* |
 | 9. | Communicate enthusiastically over the work being done, the problems being solved and the systems being built toward. | *optimistic* and *attractive* | *desirable* |
 | 10. | Gather, consider, answer and tackle user questions and remarks. | *empirical*, *accessible* and *durable* | *important* |
@@ -124,29 +124,44 @@ The project will happen in three phases : An initial phase where only the projec
 During the first phase, the *initiators* will be responsible for defining the initial project's aims, epistemology and methodology through the first few versions of its requirements. They will also initiate the platform's dynamic culture and serve as the first members of the *governing organ*.
 
 For the next two phases the *governing organ* will be the deciding body responsible of the project's development and evolution. ...
+// detail descision process
 
-All other contributors will be part of the *contributor agora*. They can provide feedback, report bugs, and suggest improvements. ...
+All other contributors will be part of the *contributor agora*. They can provide feedback, report bugs or suggest improvements. They may also contribute code but it will have to be reviewed and validated by members of the *governing organ* before integrating it into a release. ...
 
 - roles
   - initiators
     - define the initial project's aims, epistemology and methodology through its requirements
     - initiate the platform's dynamic culture
   - governing organ
-    - admission process based on implication level, understanding and accordance with project aims, epistemology and methodology
-    - measures
-      - empathy -> active listening
-      - impication -> reading a corpus of content
-    - exclusion process
-    - rehabilitation process and transformative and restorative justice
+    - admission process
+      - based on implication level, understanding and accordance with project aims, epistemology and methodology
+      - measured through
+        - one on one meetings
+        - reading/watching the corpus
+        - listening to friends and family's experiances on the topics covered in the corpus
+        - creating content (articles/conferences/videos/podcasts/...) on some of these topics
+    - internal transformative justice
+      - investigation, jugement, exclusion, reparation and rehabilitation processes
+      - organisational transformation process
     - continuous internal transformation process
-    - decision process through contextualization report and synthesis committees
+    - decision process through contextualization report, synthesis committees and ranked pairs voting
     - elected and revocable coordination roles
   - contributor agora
     - input gathering process to push topics on the governing organ's agenda
   - operational roles
+- corpus
+  - has to cover
+    - history of sciences and dialectical materialism
+    - sociology and collective subjects
+    - capitalist economics and imperialism
+    - history of social struggles
+    - concrete revolutionnary processes
+  - has to contain
+    - parts theorical writings
+    - parts historical novels
 - communication tools
   - dialogue on the long term for its own maintenance and evolution
-  - other forum software in the meantime
+  - other open source forum software in the meantime
   - in person before those are set up
 
 We start as a temporary benevolent dictatorship. Even though it is a very fragile and centralized mode of organization, it ensures alignment with the project's initial intent. Our perspective is to use the organizational tools of *dialogue* to progressively build up processes and transfer governance to its most dedicated contributors.
@@ -198,7 +213,7 @@ For now though, we are too early in the platform's development to clearly sketch
 
 ### Programming Language (Dialang)
 
-The programming language is the lowest level user interface of Dialogue and one of its most basic building blocks. Sadly no existing programming language is close enough to the following requirements so we have to create our own. Also we want to avoid cumulating multiple programming languages and complexifying our stack because of the first requirement.
+The programming language is the lowest level user interface of Dialogue and one of its most basic building blocks. Sadly no existing programming language is close enough to the following requirements so we have to create our own.
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
