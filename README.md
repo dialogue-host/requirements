@@ -1,6 +1,6 @@
 # 🌸 Dialogue
 
-**A decentralized social platform built as a toolset for all humans to collectively think, decide and act even in adverse conditions.**
+**A decentralized social platform built as a toolset for the masses to collectively think, decide and act even in repressive environment.**
 
 ---
 
@@ -13,7 +13,7 @@ These *core principles* clarify Dialogue's *aim* described above. They are fairl
 ### Decentralized
 
 - **Private**: Guarantee personal data sovereignty and communication confidentiality.
-- **Transparent**: Actively expose and explain the platform's code, protocols, algoriths and community processes to enable informed user participation and control.
+- **Transparent**: Actively expose and explain the platform's code, protocols, algorithms and community processes to enable informed user participation and control.
 - **Empowering**: Entrust people with control over their digital environment and enable them to decide on contents they want to be exposed to or to moderate.
 
 ### Social Platform
@@ -23,10 +23,10 @@ These *core principles* clarify Dialogue's *aim* described above. They are fairl
 
 ### Built as a Toolset
 
-- **Malleable**: Support community-driven development by building every interface and algorithm as swappable components that can be addapted by users to their specific needs.
+- **Malleable**: Support community-driven development by building every interface and algorithm as swappable components that can be adapted by users to their specific needs.
 - **Empirical**: Rigorously justify, study and stress test every feature to ensure its functioning truly align with the platform's *aim* and *principles*.
 
-### For All Humans
+### For the Masses
 
 - **Accessible**: Ensure accessibility and ease of use to the largest amount of people possible by considering technical knowledge, economical status, cultural background, physical and mental disabilities, spoken languages, literacy and every other possibly hindering factor.
 - **Attractive**: Bring local and online communities onboard by implementing win win mechanisms and focusing on their concrete needs.
@@ -45,10 +45,11 @@ These *core principles* clarify Dialogue's *aim* described above. They are fairl
 
 ### To Collectively Act
 
+- **Physical**: Breach into the real world with community spaces where people can create, learn and collaborate through shared physical mediums.
 - **Optimistic**: Builds confidence in our collective ability to overcome current challenges and shape better futures through human ingenuity and collective action.
 - **Sustainable**: Implement various means for platform developers, content creators and other contributors to get revenue and sustain their work on the long term.
 
-### Even in Adverse Conditions
+### Even in Repressive Environment
 
 - **Resilient**: Maintain platform availability and usability even on hostile networks.
 - **Safe**: Ensure users can communicate without fear of identification or retribution even in repressive environments.
@@ -59,6 +60,8 @@ These *core principles* clarify Dialogue's *aim* described above. They are fairl
 Our current priority is to complete this document, to clarify its concepts and to start designing the platform's architecture. The best way for you to contribute is to send your remarks and suggestions as a *GitHub* issue or sending them directly to me.
 
 Spotting ideas that lack clarity or words that need explanation - especially for people with no technical background - is of interest. Many technical aspects are lacking as this document is work in progress but please inform us about any consideration that we might be missing. There is no dumb remarks as long as they are stated in a respectful manner.
+
+The second goal is to build the platform's first technical block : the Dialang compiler.
 
 ## Requirements
 
@@ -78,11 +81,11 @@ We group requirements into different *systems*. We aim to minimize their size an
 
 > A dialogue consists of a cross-examination of different speeches, all of which commit their author. It is not about imposing a cognitive point of view, a perspective or reference. Each word transmitted in communication seeks to be decoded and received by the recipient, then to signify something that has meaning in their own existence. Dialogue calls for the actors of communication to be transformed in their being, in complete freedom. Active listening, sincere humility and mutual respect are therefore necessary. A successful dialogue produces a diagnosis integrating all the arguments of the participants and a conclusion in which they all agree. - *paraphrasing french wikipedia*
 
-As a logo, the cherry flower 🌸 symbolizes hope, renewal and peace and its soft pink color brings care, kindness, playfulness and joy. The cherry blossom is a very poetic symbol as it embraces the perpetual transformation of the world and announces "le temps des cerises". But it is not a spotless symbol as it has been used to motivate japanese militarism, nationalism and kamikaze action. But - as of our current understanding - this association doesn't seem to overwelm its peaceful and kind facets in the japanese imaginary.
+As a logo, the cherry flower 🌸 symbolizes hope, renewal and peace and its soft pink color brings care, kindness, playfulness and joy. The cherry blossom is a very poetic symbol as it embraces the perpetual transformation of the world and announces "le temps des cerises". But it is not a spotless symbol as it has been used to motivate japanese militarism, nationalism and kamikaze action. But - as of our current understanding - this association doesn't seem to overwhelm its peaceful and kind facets in the japanese imaginary.
 
 With cherry flower comes pink as the primary color of Dialogue's aestetic. Although pink can be stereotyped as feminine and romantic, these stereotypes have been challenged by various gender equality movements. Nevertheless to soften these prejudices we can use lighter pastel tones or darker redich ones that are less connoted than brighter ones.
 
-The general aestetic will have to look handcrafty to make it aproachable, to highlight the software malleability and to encourage users to express themselves through it. Many social medias look spotless, smooth, imobile and cold. Dialogue is made for and by humans which are dynamic living creatures that learn while doing. The messy and imperfect nature of this learning process should be praised and promoted by the platform's design and aestetic.
+The general aestetic will have to look handcrafty to make it aproachable, to highlight the software malleability and to encourage users to express themselves through it. The minimalist design most social medias platforms follow looks spotless, smooth, immobile and cold. Dialogue is made for and by humans which are dynamic living creatures that learn while doing. The messy and imperfect nature of this learning process should be praised and promoted by the platform's design and aestetic.
 
 // TODO : detail who has to get involved, when and how
 
@@ -103,28 +106,28 @@ We will be using the `dialogue.host` domain at first and buy ones such as `dialo
 
 ### Governance
 
-The form that an organization takes shapes what it produces. As we do not want Dialogue to steer off course, we have to be very thoughtful of the way we structure ourselves, take decisions and operate.
+The form that an organization takes shapes what it produces. As we want Dialogue to uphold its aims and principles on the long run, we have to be very thoughtful of the way we structure ourselves, take decisions and operate.
 
 | ref | requirement | fulfills | priority |
 | --: | ----------- | -------- | -------- |
-| 1. | Always justify descisions relative to the platform's *aim* and *core principles*. | *empirical* and *durable* | *crucial* |
+| 1. | Always justify decisions relative to the platform's *aim* and *core principles*. | *empirical* and *durable* | *crucial* |
 | 2. | Be in a process of constant adaptation to our changing world while maintaining Dialogue's original *aim*. | *durable* | *crucial* |
 | 3. | Communicate publicly about funding, inner processes and decisions while hiding aspects that could endenger the platform's infrastructure or the people involved. | *transparent* and *resilient* | *crucial* |
 | 4. | Prevent state or corporate interests from infiltrating and/or taking over deciding bodies. | *independent* | *crucial* |
 | 5. | Keep the organization, its development processes and infrastructure working even under state level interdiction and repression. | *resilient* | *important* |
 | 6. | Evaluate, compare to intent and correct in case of misalignment every decision's concrete effects. | *empirical* | *crucial* |
 | 7. | Support economically and credit contributors to ensure their longevity and recognition. | *sustainable* | *desirable* |
-| 8. | Represent human diversity amoungst members of the descision bodies. | *empathic* | *important* |
+| 8. | Represent human diversity amongst members of the decision bodies. | *empathic* | *important* |
 | 9. | Communicate enthusiastically over the work being done, the problems being solved and the systems being built toward. | *optimistic* and *attractive* | *desirable* |
 | 10. | Gather, consider, answer and tackle user questions and remarks. | *empirical*, *accessible* and *durable* | *important* |
-| 11. | Defend the interests of peoples with various impairments that are unable to involve themselves in the desciding bodies. | *empathic* | *important* |
+| 11. | Defend the interests of peoples with various impairments that are unable to involve themselves in the deciding bodies. | *empathic* | *important* |
 
 The project will happen in three phases : An initial phase where only the project's *initiators* are involved. A second phase where the project starts getting traction, more people get involved and the platform is built. And a third where the platform has to be maintained and improved. We consider different roles and responsibilities for each phase.
 
 During the first phase, the *initiators* will be responsible for defining the initial project's aims, epistemology and methodology through the first few versions of its requirements. They will also initiate the platform's dynamic culture and serve as the first members of the *governing organ*.
 
 For the next two phases the *governing organ* will be the deciding body responsible of the project's development and evolution. ...
-// detail descision process
+// detail decision process
 
 All other contributors will be part of the *contributor agora*. They can provide feedback, report bugs or suggest improvements. They may also contribute code but it will have to be reviewed and validated by members of the *governing organ* before integrating it into a release. ...
 
@@ -135,15 +138,22 @@ All other contributors will be part of the *contributor agora*. They can provide
   - governing organ
     - admission process
       - based on implication level, understanding and accordance with project aims, epistemology and methodology
+      - belief that the best way to organize human society is for it to function democratically on every aspect, including its productive and economical processes.
       - measured through
         - one on one meetings
         - reading/watching the corpus
-        - listening to friends and family's experiances on the topics covered in the corpus
+        - listening to friends and family's experiences on the topics covered in the corpus
         - creating content (articles/conferences/videos/podcasts/...) on some of these topics
-    - internal transformative justice
+    - transformative justice
+      - in case of an aggression
+        - victim's safety, healing and agency
+        - offender accountability and transformation
+        - community response and accountability
+        - transformation of the community and social conditions that create and perpetuate violence
       - investigation, jugement, exclusion, reparation and rehabilitation processes
       - organisational transformation process
     - continuous internal transformation process
+    - be consequent : say what you do and do what you say
     - decision process through contextualization report, synthesis committees and ranked pairs voting
     - elected and revocable coordination roles
   - contributor agora
@@ -151,14 +161,16 @@ All other contributors will be part of the *contributor agora*. They can provide
   - operational roles
 - corpus
   - has to cover
-    - history of sciences and dialectical materialism
-    - sociology and collective subjects
-    - capitalist economics and imperialism
-    - history of social struggles
-    - concrete revolutionnary processes
+    - history of sciences and dialectical materialism (fight against dogmas)
+    - sociology and collective subjects (understanding social dynamics and methods of domination)
+    - capitalist economics and imperialism (understanding political and militaristic dynamics)
+    - concrete revolutionary processes and counter revolutions (reality of the class struggle)
+    - transformative justice (resolve struggles inside an organization)
+    - rôle of media
   - has to contain
-    - parts theorical writings
-    - parts historical novels
+    - parts theoretical parts lived experience
+    - be a introduction into the various core aspects of dialogue
+    - contextualize the different contents
 - communication tools
   - dialogue on the long term for its own maintenance and evolution
   - other open source forum software in the meantime
@@ -277,6 +289,7 @@ Users :
 - **Bot** : Computer program interacting with the platform.
 - **Sybil** : Computer program pretending to be a *person*.
 - **Org** : Group of *entities* organizing together. They have an *aim*, *processes* and a *record*. It might be publicly visible or private in which case only its *members* and some other authorized *entities* know it exists. *Members* may share *content* internally.
+- **Role** : Role given to a user inside of an *org*.
 - **Device** : Hardware *device* interacting with various parts of the platform.
 - **Legal Entity** : *Entity* having a legal existence outside of the platform. It might be a company, an ONG, an individual, a state, an institution, etc.
 - **Server** : *Device* providing storage and replication of *entities* encrypted data. A *person* might setup its own *server* or use one provided by a *legal entity*. *People* must be able to easily switch or leave *servers* at any time.
@@ -369,6 +382,8 @@ In this section we detail every principle, we express its underlying rationale, 
 When we interact online, we tend to forget that there are human beings on the other side of the screen. This distance makes it easier to ignore others' humanity, leading to behaviors we would rarely engage in face-to-face: going from simple carelessness to harassment and public shaming. These toxic behaviors isolates peoples, encourages stale interactions and deepens social divisions. We want to build bridges and have spaces for people to dialogue with one another.
 
 Being empathic means fostering an environment where people feel safe to express themselves and engage with others constructively. This goes beyond basic politeness - it requires actively designing systems that encourage empathy, honesty, mutual understanding, good faith communication and that supports users mental and physical wellbeing.
+
+// todo : making things more human and personal. Recommendation through content curators, etc. Help build real, long term relationships instead of brief encounters.
 
 This doesn't mean avoiding hard or violent topics, nor does it mean abolishing debate or disagreement. It simply means to make ones best effort to reach the other, try to understand their point of view and progress from there.
 
