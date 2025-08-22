@@ -1,6 +1,8 @@
 # 🌸 Dialogue
 
-**A decentralized social platform built as a toolset for the masses to collectively think, decide and act even in repressive environment.**
+**A digital public space built for democracy in the face of authoritarians.**
+
+More specifically, it is a decentralized social platform built as a toolset for the masses to collectively think, decide and act even in repressive environments.
 
 ---
 
@@ -8,7 +10,7 @@ Dialogue is work in progress and we need your help to build it. There is a lot o
 
 ## Core Principles
 
-These *core principles* clarify Dialogue's *aim* described above. They are fairly general but each highlights a different facet of the platform. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
+These *core principles* clarify Dialogue's *aim* (stated above). They are fairly general but each highlights a different facet of the platform. See the [rationale section](#core-principles-rationale) for a detailed description of each principle.
 
 ### Decentralized
 
@@ -49,7 +51,7 @@ These *core principles* clarify Dialogue's *aim* described above. They are fairl
 - **Optimistic**: Builds confidence in our collective ability to overcome current challenges and shape better futures through human ingenuity and collective action.
 - **Sustainable**: Implement various means for platform developers, content creators and other contributors to get revenue and sustain their work on the long term.
 
-### Even in Repressive Environment
+### Even in Repressive Environments
 
 - **Resilient**: Maintain platform availability and usability even on hostile networks.
 - **Safe**: Ensure users can communicate without fear of identification or retribution even in repressive environments.
@@ -233,18 +235,12 @@ The programming language is the lowest level user interface of Dialogue and one 
 | 2. | Enforce [*coding conventions*](#coding-conventions) where possible, facilitate and encourage their use otherwise. | *accessible* and *durable* | *important* |
 | 3. | Make side effects very explicit and controllable to minimize the potential for hiding malicious code in packages and extensions. | *transparent*, *secure* and *resilient* | *crucial* |
 | 4. | Have first class meta-programming to support tooling development, static analysis and code generation. | *attractive* and *accessible* | *crucial* |
-| 5. | Look familiar to seasoned developers. | *attractive* | *desirable* |
+| 5. | Look familiar to seasoned developers. | *attractive* | *important* |
 | 8. | Make white-spaces syntactically insignificant to make the language more resilient to copy-paste and LLM usage. | *accessible* | *desirable* |
 | 9. | Handle an extendable list of compilation targets to make the code portable to many present and future supports. | *accessible* and *durable* | *important* |
 | 10. | Handle translation tables, modular lexers, parsers and code generators to translate code back and forth from one spoken language to an other. | *accessible* | *important* |
 | 11. | Enable partial and complete code hot swapping even in production. | *modularity* | *crucial* |
 | 12. | Minimize bundle size, runtime speed and memory usage. | *durable*, *accessible* and *attractive* | *desirable* |
-
-### Peer to Peer Library
-
-| ref | requirement | fulfills | priority |
-| --: | ----------- | -------- | -------- |
-| 1. | Enable seem less peer to peer communication and data synchronization. | *resilient*, *independent* and *accessible* | *crucial* |
 
 ### Package, Versioning and Distribution Manager
 
@@ -253,11 +249,17 @@ The programming language is the lowest level user interface of Dialogue and one 
 | 1. | Incorporate systems for version control, p2p package distribution and deployment to ensure maintainability. | *sustainable* and *resilient* | *crucial* |
 | 2. | Integrate [evergreen migrations](https://www.youtube.com/watch?v=4T6nZffnfzg) as the essential method for transitioning versions. | *sustainable* | *desirable* |
 
-### Graphics Library
+### Peer to Peer Library
 
-### IDE
+| ref | requirement | fulfills | priority |
+| --: | ----------- | -------- | -------- |
+| 1. | Enable seem less peer to peer communication and data synchronization. | *resilient*, *independent* and *accessible* | *crucial* |
 
-### GUI
+### User Interface Library
+
+### Interactive Development Environment (IDE)
+
+### Graphical Interface Design Environment (GIDE)
 
 Code is a great interface for describing an application's logic but graphical tools are much more adapted when in comes to interfaces and graphic design.
 
@@ -308,8 +310,8 @@ Organizing :
 
 - **Member** : *Entity* that is part of an *org*.
 - **Aim** : Piece of text describing the goals, intended purposes and general orientation of an *org*. The introduction and the *core principles* together form *Dialogue OC*'s *aim*.
-- **Action** : Different actions can be taken by an *org*. This mey be internal *content* moderation, *content* publication and management, modifications of the *aim*, *member* acceptance and exclusion, *role* edition, granting and removal, modifications of *processes*, etc.
-- **Process** : Methods and criterions by which *action* can be taken within an *org*. The mechanisms mey include direct voting, temporary *role* granting through [sortition](https://en.wikipedia.org/wiki/Sortition), committee deliberation, etc. Its functioning has to be transparent to every *member*.
+- **Action** : Different actions can be taken by an *org*. This may be internal *content* moderation, *content* publication and management, modifications of the *aim*, *member* acceptance and exclusion, *role* edition, granting and removal, modifications of *processes*, etc.
+- **Process** : Methods and criterions by which *action* can be taken within an *org*. The mechanisms may include direct voting, temporary *role* granting through [sortition](https://en.wikipedia.org/wiki/Sortition), committee deliberation, etc. Its functioning has to be transparent to every *member*.
 - **Record** : List of every *action* taken and the *entities* responsible.
 - **Role** : *Members* hold different *roles* within an *org* that charge them with some responsibilities and may grants them the right to take a specific *actions*. A piece of text describes the expected behavior of the holder.
 
@@ -320,7 +322,7 @@ Publishing :
 - **Format** : Standard structure of *content* data, metadata, presentation material (miniature, description, etc.) and available *interactions*. This might cover things like articles, posts, long form videos, short vertical videos, live streaming, songs, podcasts, books, comments, playlists, chats, etc.
 - **Authz** : Piece of data describing which *entities* get to access and/or *interact* in specific ways with a given piece of *content*. All *content* that is not public is encrypted. *Entities* that have reading rights on the content are the only ones to receive the decryption key and all editions made by non authorized *entities* are simply ignored. *Authz* stands for authorization and must not be mixed with *authn* that stands for authentication instead.
 - **Ownership** : Every piece of *content* is owned by an *entity* which is the only one able to modify its *authz*. *Content* is *owned* by its initial emitter but can be transferred to a different *entity*. The *content* will be stored and kept online by the *owner*'s own *devices* and the *owner*'s *friends devices*. In the context of an *org*, its *owned content* gets stored on its own *servers* and/or on its *members devices*.
-- **Signature** : Cryptographic signature ensuring the authenticity of the piece of data. Every *content* and *interaction* have to be signed. Different kinds of [group signatures](https://en.wikipedia.org/wiki/Group_signature) mey be used in the case of *org* signatures.
+- **Signature** : Cryptographic signature ensuring the authenticity of the piece of data. Every *content* and *interaction* have to be signed. Different kinds of [group signatures](https://en.wikipedia.org/wiki/Group_signature) may be used in the case of *org* signatures.
 - **Pinning** : A *person* might decide to *pin content* they do not *own* on one or more of its *devices*. Those *devices* will then store the *content* and keep it available online. *Pinned* data isn't stored on *friends devices*.
 
 Interfaces :
@@ -369,7 +371,7 @@ everyone doesn't need to give the same credence to everyone else. Give more cred
 Payment methods have to be available in order to finance the work of content creators, pay compensations on the collaborative storage cloud.
 
 - the *Dialogue OC* will provide content crowd funding (*accessible* and *sustainable*)
-- *orgs* will have tooling to track money and equipments that is held by different *members* on their behalf (*resilient*)
+- *orgs* will have tooling to track money and equipment that is held by different *members* on their behalf (*resilient*)
 - payments in cryptocurrency will be possible independently of that service (*resilient*)
 - the *Dialogue OC* might provide cryptocurrency exchange (*accessible* and *sustainable*)
 
